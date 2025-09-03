@@ -1,0 +1,6985 @@
+{
+  "directory": "data/extended_topics",
+  "documents": [
+    {
+      "document_info": {
+        "file_name": "G152e.pdf",
+        "file_path": "data/extended_topics/G152e.pdf",
+        "title": "TOGAF® Series Guide:  Integrating Risk and Security within a TOGAF® Enterprise Architecture",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 44,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "1.1 How does this Guide Support the TOGAF Standard?",
+          "page": 14
+        },
+        {
+          "level": 2,
+          "title": "1.2 What about Risk Management?",
+          "page": 14
+        },
+        {
+          "level": 2,
+          "title": "1.3 Where is the Controls Checklist?",
+          "page": 15
+        },
+        {
+          "level": 1,
+          "title": "2 Relationship to Other IT Security and Risk Standards",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.1 ISO/IEC 27001:2013: Information Security Management",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.2 ISO 31000:2009: Risk Management – Principles and Guidelines",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.3 National Cybersecurity Frameworks",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.4 COBIT®",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.5 O-ESA",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.6 O-ISM3",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.7 Open FAIR",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.8 SABSA®",
+          "page": 19
+        },
+        {
+          "level": 1,
+          "title": "3 Enterprise Security Architecture",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "3.1 Enterprise Risk Management",
+          "page": 21
+        },
+        {
+          "level": 3,
+          "title": "3.1.1 Definition of Risk",
+          "page": 21
+        },
+        {
+          "level": 3,
+          "title": "3.1.2 Core Concepts for Enterprise Risk Management",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "3.2 Information Security Management",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "3.2.1 Security",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "3.2.2 Privacy",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "3.2.3 Core Concepts for Information Security Management",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "3.2.4 Operational Security Processes",
+          "page": 27
+        },
+        {
+          "level": 1,
+          "title": "4 Security as a Cross-Cutting Concern",
+          "page": 28
+        },
+        {
+          "level": 1,
+          "title": "5 Security and Risk Concepts in the TOGAF ADM",
+          "page": 29
+        },
+        {
+          "level": 2,
+          "title": "5.1 Preliminary Phase",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "5.1.1 Business Drivers/Business Objectives",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "5.1.2 Security Principles",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "5.1.3 Risk Appetite",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "5.1.4 Key Risk Areas/Business Impact Analysis",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "5.1.5 Security Resource Plan",
+          "page": 30
+        },
+        {
+          "level": 2,
+          "title": "5.2 Phase A: Architecture Vision",
+          "page": 31
+        },
+        {
+          "level": 2,
+          "title": "5.3 Phase B: Business Architecture",
+          "page": 32
+        },
+        {
+          "level": 3,
+          "title": "5.3.1 Security Policy Architecture",
+          "page": 32
+        },
+        {
+          "level": 3,
+          "title": "5.3.2 Security Domain Model",
+          "page": 32
+        },
+        {
+          "level": 3,
+          "title": "5.3.3 Trust Framework",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "5.3.4 Risk Assessment",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "5.3.5 Business Risk Model/Risk Register",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "5.3.6 Applicable Law and Regulation Register",
+          "page": 34
+        },
+        {
+          "level": 3,
+          "title": "5.3.7 Applicable Control Framework Register",
+          "page": 34
+        },
+        {
+          "level": 2,
+          "title": "5.4 Phase C: Information Systems Architectures",
+          "page": 34
+        },
+        {
+          "level": 3,
+          "title": "5.4.1 Security Services Catalog",
+          "page": 34
+        },
+        {
+          "level": 3,
+          "title": "5.4.2 Security Classification",
+          "page": 35
+        },
+        {
+          "level": 3,
+          "title": "5.4.3 Data Quality",
+          "page": 36
+        },
+        {
+          "level": 2,
+          "title": "5.5 Phase D: Technology Architecture",
+          "page": 36
+        },
+        {
+          "level": 2,
+          "title": "5.6 Phase E: Opportunities and Solutions",
+          "page": 36
+        },
+        {
+          "level": 3,
+          "title": "5.6.1 Risk Mitigation Plan",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "5.7 Phase F: Migration Planning",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "5.8 Phase G: Implementation Governance",
+          "page": 37
+        },
+        {
+          "level": 3,
+          "title": "5.8.1 Security Audit",
+          "page": 37
+        },
+        {
+          "level": 3,
+          "title": "5.8.2 Security Training and Awareness",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "5.9 Phase H: Architecture Change Management",
+          "page": 38
+        },
+        {
+          "level": 2,
+          "title": "5.10 Requirements Management",
+          "page": 39
+        },
+        {
+          "level": 3,
+          "title": "5.10.1 Business Attribute Profile",
+          "page": 39
+        },
+        {
+          "level": 3,
+          "title": "5.10.2 Control Objectives/Security Objectives",
+          "page": 41
+        },
+        {
+          "level": 3,
+          "title": "5.10.3 Security Standards",
+          "page": 41
+        },
+        {
+          "level": 2,
+          "title": "5.11 The TOGAF Architecture Content Metamodel",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "5.12 Use of the ArchiMate® Modeling Language",
+          "page": 42
+        },
+        {
+          "level": 1,
+          "title": "Acronyms",
+          "page": 43
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G190e.pdf",
+        "file_path": "data/extended_topics/G190e.pdf",
+        "title": "TOGAF® Series Guide:  Information Mapping",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 26,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "2 What is an Information Map?",
+          "page": 12
+        },
+        {
+          "level": 1,
+          "title": "3 The Impact and Benefits",
+          "page": 13
+        },
+        {
+          "level": 1,
+          "title": "4 The Relationship to Business Capabilities, Value Streams, and Organization Maps",
+          "page": 14
+        },
+        {
+          "level": 1,
+          "title": "5 Distinguishing between Information Maps and Data Models",
+          "page": 16
+        },
+        {
+          "level": 1,
+          "title": "6 Using Information Maps with the TOGAF ADM",
+          "page": 17
+        },
+        {
+          "level": 1,
+          "title": "7 Putting Information Maps into Practice",
+          "page": 18
+        },
+        {
+          "level": 1,
+          "title": "8 Conclusion",
+          "page": 20
+        },
+        {
+          "level": 1,
+          "title": "A Representations of Information Maps",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "A.1 ArchiMate Language Example",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "A.2 Unified Modeling Language (UML)",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "A.3 Entity Relationship Diagrams (ERDs)",
+          "page": 25
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G186e.pdf",
+        "file_path": "data/extended_topics/G186e.pdf",
+        "title": "TOGAF® Series Guide:  A Practitioners' Approach to Developing Enterprise Architecture Following the TOGAF® ADM",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 143,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 12
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "1.1 Overview",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "1.2 How to Use this Guide with the TOGAF Framework",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "1.3 Referenced Techniques",
+          "page": 19
+        },
+        {
+          "level": 1,
+          "title": "2 Definitions",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.1 Enterprise",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.2 Enterprise Architecture (EA)",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.3 Practitioner",
+          "page": 20
+        },
+        {
+          "level": 1,
+          "title": "3 The Purpose of Enterprise Architecture",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "3.1 Why is it Important to Develop an Enterprise Architecture?",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "3.2 What is an Enterprise Architecture?",
+          "page": 23
+        },
+        {
+          "level": 3,
+          "title": "3.2.1 Introduction to the EA Landscape",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "3.2.2 Introduction to Purpose",
+          "page": 27
+        },
+        {
+          "level": 3,
+          "title": "3.2.3 What an Enterprise Architecture Looks Like",
+          "page": 29
+        },
+        {
+          "level": 2,
+          "title": "3.3 How to Use an Enterprise Architecture?",
+          "page": 31
+        },
+        {
+          "level": 3,
+          "title": "3.3.1 Communicating with Stakeholders (Concern and View)",
+          "page": 31
+        },
+        {
+          "level": 3,
+          "title": "3.3.2 Communicating with Implementers (Gap, Specification, and Control)",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "3.3.3 Communicating with Decision-Makers (Other Useful Things)",
+          "page": 34
+        },
+        {
+          "level": 2,
+          "title": "3.4 Conclusion",
+          "page": 36
+        },
+        {
+          "level": 1,
+          "title": "4 Business Cycle",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "4.1 Budget Cycle",
+          "page": 37
+        },
+        {
+          "level": 3,
+          "title": "4.1.1 Budget Planning and Architecture to Support Strategy",
+          "page": 38
+        },
+        {
+          "level": 3,
+          "title": "4.1.2 Budget Preparation and Architecture to Support Portfolio",
+          "page": 39
+        },
+        {
+          "level": 3,
+          "title": "4.1.3 Budget Allocation and Architecture to Support Project",
+          "page": 39
+        },
+        {
+          "level": 3,
+          "title": "4.1.4 Budget Control and Architecture to Support Solution Delivery",
+          "page": 40
+        },
+        {
+          "level": 2,
+          "title": "4.2 Business Cycle Conclusion",
+          "page": 41
+        },
+        {
+          "level": 1,
+          "title": "5 Coordination Across the EA Landscape and EA Team",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "5.1 What to Expect in a Well-Run Architecture Repository & EA Landscape",
+          "page": 42
+        },
+        {
+          "level": 3,
+          "title": "5.1.1 What to Expect in a Well-Run EA Repository: EA Landscape",
+          "page": 46
+        },
+        {
+          "level": 3,
+          "title": "5.1.2 What to Expect in a Well-Run EA Repository: Reference Library",
+          "page": 48
+        },
+        {
+          "level": 3,
+          "title": "5.1.3 What to Expect in a Well-Run EA Repository: Standards Library",
+          "page": 50
+        },
+        {
+          "level": 3,
+          "title": "5.1.4 What to Expect in a Well-Run EA Repository: Architecture Requirements Repository",
+          "page": 50
+        },
+        {
+          "level": 3,
+          "title": "5.1.5 What to Expect in a Well-Run EA Repository: Compliance Assessments",
+          "page": 52
+        },
+        {
+          "level": 2,
+          "title": "5.2 How is ADM Iteration Realized in Practice?",
+          "page": 54
+        },
+        {
+          "level": 3,
+          "title": "5.2.1 Phase A: The Starting Point",
+          "page": 55
+        },
+        {
+          "level": 3,
+          "title": "5.2.2 Essential ADM Output and Knowledge",
+          "page": 56
+        },
+        {
+          "level": 3,
+          "title": "5.2.3 Iteration",
+          "page": 57
+        },
+        {
+          "level": 3,
+          "title": "5.2.4 ADM Plan for Architecture to Support Strategy",
+          "page": 59
+        },
+        {
+          "level": 3,
+          "title": "5.2.5 ADM Plan for Architecture to Support Portfolio",
+          "page": 60
+        },
+        {
+          "level": 3,
+          "title": "5.2.6 ADM Plan for Architecture to Support Project",
+          "page": 61
+        },
+        {
+          "level": 3,
+          "title": "5.2.7 ADM Plan for Architecture to Support Solution Delivery",
+          "page": 61
+        },
+        {
+          "level": 3,
+          "title": "5.2.8 Iteration Conclusion",
+          "page": 65
+        },
+        {
+          "level": 2,
+          "title": "5.3 Operating in the Context of Superior Architecture",
+          "page": 65
+        },
+        {
+          "level": 2,
+          "title": "5.4 Managing Multiple States (Candidate, Current, Transition, and Target)",
+          "page": 65
+        },
+        {
+          "level": 2,
+          "title": "5.5 Where are ABBs?",
+          "page": 66
+        },
+        {
+          "level": 1,
+          "title": "6 Approach to the ADM",
+          "page": 68
+        },
+        {
+          "level": 2,
+          "title": "6.1 Key Activity",
+          "page": 68
+        },
+        {
+          "level": 3,
+          "title": "6.1.1 Stakeholder Engagement and Requirements Management",
+          "page": 68
+        },
+        {
+          "level": 3,
+          "title": "6.1.2 Trade-Off",
+          "page": 69
+        },
+        {
+          "level": 2,
+          "title": "6.2 Trade-Off Decisions",
+          "page": 69
+        },
+        {
+          "level": 2,
+          "title": "6.3 Phases B, C, and D – Developing the Architecture",
+          "page": 70
+        },
+        {
+          "level": 3,
+          "title": "6.3.1 Select Reference Models, Viewpoints, and Tools",
+          "page": 70
+        },
+        {
+          "level": 3,
+          "title": "6.3.2 Develop Target, Baseline, and Gap",
+          "page": 70
+        },
+        {
+          "level": 3,
+          "title": "6.3.3 Identify the Work to Reach the Target Considering Cost and Value",
+          "page": 71
+        },
+        {
+          "level": 3,
+          "title": "6.3.4 Resolving Impacts",
+          "page": 71
+        },
+        {
+          "level": 3,
+          "title": "6.3.5 Approval",
+          "page": 71
+        },
+        {
+          "level": 3,
+          "title": "6.3.6 Minimum Needed and Look in the EA Repository",
+          "page": 72
+        },
+        {
+          "level": 2,
+          "title": "6.4 ADM Conclusion",
+          "page": 72
+        },
+        {
+          "level": 1,
+          "title": "7 Walk Through Architecture to Support Strategy",
+          "page": 73
+        },
+        {
+          "level": 2,
+          "title": "7.1 Introduction",
+          "page": 73
+        },
+        {
+          "level": 2,
+          "title": "7.2 Understanding Context",
+          "page": 75
+        },
+        {
+          "level": 2,
+          "title": "7.3 Assess the Enterprise",
+          "page": 76
+        },
+        {
+          "level": 2,
+          "title": "7.4 Define an Approach to Target State",
+          "page": 77
+        },
+        {
+          "level": 3,
+          "title": "7.4.1 Confirm Enterprise Change Attributes",
+          "page": 78
+        },
+        {
+          "level": 3,
+          "title": "7.4.2 Develop Value Proposition",
+          "page": 78
+        },
+        {
+          "level": 3,
+          "title": "7.4.3 Identify and Sequence Work Packages",
+          "page": 78
+        },
+        {
+          "level": 2,
+          "title": "7.5 Finalize Architecture Vision and Target Architecture",
+          "page": 79
+        },
+        {
+          "level": 2,
+          "title": "7.6 Conclusion",
+          "page": 79
+        },
+        {
+          "level": 1,
+          "title": "8 Walk Through Architecture to Support Portfolio",
+          "page": 81
+        },
+        {
+          "level": 2,
+          "title": "8.1 Introduction",
+          "page": 81
+        },
+        {
+          "level": 2,
+          "title": "8.2 Group Work Packages to Themes",
+          "page": 85
+        },
+        {
+          "level": 2,
+          "title": "8.3 Balance Opportunity and Viability",
+          "page": 87
+        },
+        {
+          "level": 2,
+          "title": "8.4 Run Up to Budget",
+          "page": 88
+        },
+        {
+          "level": 3,
+          "title": "8.4.1 Internal Engagement",
+          "page": 88
+        },
+        {
+          "level": 3,
+          "title": "8.4.2 Has the Target been Reached?",
+          "page": 89
+        },
+        {
+          "level": 2,
+          "title": "8.5 Drive Confidence of Delivery",
+          "page": 89
+        },
+        {
+          "level": 2,
+          "title": "8.6 Request for Architecture Work Originating from a Random Idea from the Wild",
+          "page": 90
+        },
+        {
+          "level": 2,
+          "title": "8.7 Conclusion",
+          "page": 90
+        },
+        {
+          "level": 1,
+          "title": "9 Walk Through Architecture to Support Project",
+          "page": 92
+        },
+        {
+          "level": 2,
+          "title": "9.1 Ascertain Dependencies",
+          "page": 94
+        },
+        {
+          "level": 3,
+          "title": "9.1.1 Project is not a Magical Place to Swap Out Stakeholders",
+          "page": 94
+        },
+        {
+          "level": 3,
+          "title": "9.1.2 Stakeholders versus Key Players",
+          "page": 95
+        },
+        {
+          "level": 3,
+          "title": "9.1.3 Viewpoints and Requirements",
+          "page": 95
+        },
+        {
+          "level": 3,
+          "title": "9.1.4 Go Talk to the “Neighbors”",
+          "page": 96
+        },
+        {
+          "level": 3,
+          "title": "9.1.5 Delivery and Acceptance Ability Assessment",
+          "page": 96
+        },
+        {
+          "level": 2,
+          "title": "9.2 Balance Options and Suppliers",
+          "page": 96
+        },
+        {
+          "level": 3,
+          "title": "9.2.1 Performing Trade-Off",
+          "page": 97
+        },
+        {
+          "level": 3,
+          "title": "9.2.2 Managing the Current Approach towards Implementing the Change",
+          "page": 97
+        },
+        {
+          "level": 2,
+          "title": "9.3 Finalize Scope and Budget",
+          "page": 98
+        },
+        {
+          "level": 2,
+          "title": "9.4 Prepare for Solution Delivery Governance",
+          "page": 98
+        },
+        {
+          "level": 2,
+          "title": "9.5 Project Request for Architecture Work Originating from the Wild",
+          "page": 99
+        },
+        {
+          "level": 1,
+          "title": "10 Walk Through Architecture to Support Solution Delivery",
+          "page": 100
+        },
+        {
+          "level": 2,
+          "title": "10.1 Introduction",
+          "page": 100
+        },
+        {
+          "level": 3,
+          "title": "10.1.1 Scoping",
+          "page": 102
+        },
+        {
+          "level": 3,
+          "title": "10.1.2 Function Purity and Solution Innovation",
+          "page": 102
+        },
+        {
+          "level": 3,
+          "title": "10.1.3 Handover and Closure",
+          "page": 102
+        },
+        {
+          "level": 2,
+          "title": "10.2 Aligning Implementers",
+          "page": 102
+        },
+        {
+          "level": 2,
+          "title": "10.3 Guiding Delivery",
+          "page": 103
+        },
+        {
+          "level": 2,
+          "title": "10.4 Realizing the Solution",
+          "page": 105
+        },
+        {
+          "level": 2,
+          "title": "10.5 Project Request for Architecture Work Originating from the Wild",
+          "page": 105
+        },
+        {
+          "level": 2,
+          "title": "10.6 Conclusion",
+          "page": 105
+        },
+        {
+          "level": 1,
+          "title": "11 Jumping to Phase G",
+          "page": 107
+        },
+        {
+          "level": 2,
+          "title": "11.1 Failure Pattern: Missing the Purpose",
+          "page": 107
+        },
+        {
+          "level": 2,
+          "title": "11.2 Failure Pattern: Missing the Business Cycle",
+          "page": 108
+        },
+        {
+          "level": 3,
+          "title": "11.2.1 Architecture after Decision",
+          "page": 109
+        },
+        {
+          "level": 2,
+          "title": "11.3 Failure Pattern: Not Doing Architecture",
+          "page": 109
+        },
+        {
+          "level": 2,
+          "title": "11.4 Managing Innovation, Creativity, and Circumstance",
+          "page": 110
+        },
+        {
+          "level": 1,
+          "title": "12 Special Cases",
+          "page": 112
+        },
+        {
+          "level": 2,
+          "title": "12.1 Architecture in an Agile Enterprise",
+          "page": 112
+        },
+        {
+          "level": 2,
+          "title": "12.2 Architecture for a Domain",
+          "page": 112
+        },
+        {
+          "level": 2,
+          "title": "12.3 Architecture in Response to an Incident",
+          "page": 112
+        },
+        {
+          "level": 1,
+          "title": "13 Transition Architecture: Managing Complex Roadmaps",
+          "page": 115
+        },
+        {
+          "level": 2,
+          "title": "13.1 Roadmap Grouping",
+          "page": 115
+        },
+        {
+          "level": 2,
+          "title": "13.2 Comparing Architectures",
+          "page": 116
+        },
+        {
+          "level": 2,
+          "title": "13.3 General Guidance",
+          "page": 117
+        },
+        {
+          "level": 1,
+          "title": "14 Phase H (Coordination and Business Cycle in Action)",
+          "page": 119
+        },
+        {
+          "level": 1,
+          "title": "15 Architecture Governance",
+          "page": 122
+        },
+        {
+          "level": 2,
+          "title": "15.1 What is Governed and Why?",
+          "page": 122
+        },
+        {
+          "level": 3,
+          "title": "15.1.1 Target Architecture",
+          "page": 122
+        },
+        {
+          "level": 3,
+          "title": "15.1.2 Implementation Projects and Other Change",
+          "page": 123
+        },
+        {
+          "level": 2,
+          "title": "15.2 Roles, Duties, and Decision Rights",
+          "page": 123
+        },
+        {
+          "level": 3,
+          "title": "15.2.1 Target Checklist",
+          "page": 124
+        },
+        {
+          "level": 3,
+          "title": "15.2.2 Implementation and Other Change Checklist",
+          "page": 126
+        },
+        {
+          "level": 3,
+          "title": "15.2.3 Long-Term Compliance Reporting",
+          "page": 128
+        },
+        {
+          "level": 2,
+          "title": "15.3 Conclusion",
+          "page": 128
+        },
+        {
+          "level": 1,
+          "title": "A Partial List of Modeling Approaches",
+          "page": 130
+        },
+        {
+          "level": 1,
+          "title": "B Stakeholder/Concern Matrix",
+          "page": 132
+        },
+        {
+          "level": 2,
+          "title": "B.1 Common Stakeholder Classes",
+          "page": 132
+        },
+        {
+          "level": 2,
+          "title": "B.2 Common Concern Classes",
+          "page": 133
+        },
+        {
+          "level": 1,
+          "title": "C Sample Viewpoint Library",
+          "page": 135
+        },
+        {
+          "level": 1,
+          "title": "D Architecture Contract Template",
+          "page": 136
+        },
+        {
+          "level": 1,
+          "title": "E Another ADM Journey: Leader’s Guide Capability-Based Planning Journey",
+          "page": 138
+        },
+        {
+          "level": 1,
+          "title": "F Evolving List of Domain Architectures",
+          "page": 141
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 143
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G217e.pdf",
+        "file_path": "data/extended_topics/G217e.pdf",
+        "title": "TOGAF® Series Guide:  Using the TOGAF Standard in the Digital Enterprise",
+        "author": "",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 88,
+        "extracted_title": "Using the TOGAF® Standard in"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Using the TOGAF® Standard in the Digital Enterprise : The Open Group TOGAF® Series Guide",
+          "page": 1
+        },
+        {
+          "level": 1,
+          "title": "Table of Contents",
+          "page": 2
+        },
+        {
+          "level": 1,
+          "title": "Using the TOGAF Standard in the Digital Enterprise",
+          "page": 4
+        },
+        {
+          "level": 2,
+          "title": "Preface",
+          "page": 6
+        },
+        {
+          "level": 3,
+          "title": "The Open Group",
+          "page": 6
+        },
+        {
+          "level": 3,
+          "title": "The TOGAF® Standard, a Standard of The Open Group",
+          "page": 6
+        },
+        {
+          "level": 3,
+          "title": "This Document",
+          "page": 6
+        },
+        {
+          "level": 3,
+          "title": "About the TOGAF® Series Guides",
+          "page": 7
+        },
+        {
+          "level": 2,
+          "title": "About the Authors",
+          "page": 8
+        },
+        {
+          "level": 2,
+          "title": "Trademarks",
+          "page": 10
+        },
+        {
+          "level": 2,
+          "title": "Acknowledgements",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "Referenced Documents",
+          "page": 12
+        },
+        {
+          "level": 3,
+          "title": "Normative References",
+          "page": 12
+        },
+        {
+          "level": 3,
+          "title": "Informative References",
+          "page": 12
+        },
+        {
+          "level": 2,
+          "title": "1. Introduction",
+          "page": 15
+        },
+        {
+          "level": 3,
+          "title": "1.1. Overview",
+          "page": 15
+        },
+        {
+          "level": 3,
+          "title": "1.2. The Digital Practitioner and the Enterprise Architect",
+          "page": 16
+        },
+        {
+          "level": 4,
+          "title": "1.2.1. Context and Background",
+          "page": 17
+        },
+        {
+          "level": 3,
+          "title": "1.3. Strategy",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2. Why the TOGAF Standard Supports the Digital Enterprise",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "2.1. Introduction",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "2.2. Reactively Managing Technical Debt",
+          "page": 21
+        },
+        {
+          "level": 3,
+          "title": "2.3. Proactively Managing Technical Debt",
+          "page": 22
+        },
+        {
+          "level": 3,
+          "title": "2.4. Mature Digital Products and Operational Excellence",
+          "page": 23
+        },
+        {
+          "level": 3,
+          "title": "2.5. Simplifying Complexity (The TOGAF ADM)",
+          "page": 24
+        },
+        {
+          "level": 2,
+          "title": "3. Terminology Alignment",
+          "page": 26
+        },
+        {
+          "level": 2,
+          "title": "4. How the TOGAF Standard Supports the Digital Enterprise",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "4.1. Introduction",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "4.2. The DPBoK Standard",
+          "page": 29
+        },
+        {
+          "level": 4,
+          "title": "4.2.1. Context I: Individual/Founder",
+          "page": 30
+        },
+        {
+          "level": 4,
+          "title": "4.2.2. Context II: Team",
+          "page": 31
+        },
+        {
+          "level": 4,
+          "title": "4.2.3. Context III: Team of Teams",
+          "page": 33
+        },
+        {
+          "level": 4,
+          "title": "4.2.4. Context IV: Enduring Enterprise",
+          "page": 34
+        },
+        {
+          "level": 4,
+          "title": "4.2.5. Need More Detail?",
+          "page": 36
+        },
+        {
+          "level": 3,
+          "title": "4.3. How to Apply TOGAF Principles per Context",
+          "page": 36
+        },
+        {
+          "level": 4,
+          "title": "4.3.1. Enterprise Architecture Principles: Individual/Founder",
+          "page": 37
+        },
+        {
+          "level": 4,
+          "title": "4.3.2. Enterprise Architecture Principles: Team",
+          "page": 40
+        },
+        {
+          "level": 4,
+          "title": "4.3.3. Enterprise Architecture Principles: Team of Teams",
+          "page": 41
+        },
+        {
+          "level": 4,
+          "title": "4.3.4. Enterprise Architecture Principles: Enduring Enterprise",
+          "page": 46
+        },
+        {
+          "level": 3,
+          "title": "4.4. Enterprise Architecture Capabilities and Services",
+          "page": 47
+        },
+        {
+          "level": 4,
+          "title": "4.4.1. Enterprise Architecture Capabilities and Services: Individual/Founder",
+          "page": 48
+        },
+        {
+          "level": 4,
+          "title": "4.4.2. Enterprise Architecture Capabilities and Services: Team",
+          "page": 50
+        },
+        {
+          "level": 4,
+          "title": "4.4.3. Enterprise Architecture Capabilities and Services: Team of Teams",
+          "page": 52
+        },
+        {
+          "level": 4,
+          "title": "4.4.4. Enterprise Architecture Capabilities and Services: Enduring Enterprise",
+          "page": 54
+        },
+        {
+          "level": 4,
+          "title": "4.4.5. Enterprise Architecture Services Emergence Model",
+          "page": 57
+        },
+        {
+          "level": 3,
+          "title": "4.5. TOGAF Artifacts and Series Guides",
+          "page": 58
+        },
+        {
+          "level": 4,
+          "title": "4.5.1. Mapping to the Individual/Founder Context",
+          "page": 58
+        },
+        {
+          "level": 4,
+          "title": "4.5.2. Mapping to the Team Context",
+          "page": 63
+        },
+        {
+          "level": 4,
+          "title": "4.5.3. Mapping to the Team of Teams Context",
+          "page": 66
+        },
+        {
+          "level": 4,
+          "title": "4.5.4. Mapping to the Enduring Enterprise Context",
+          "page": 69
+        },
+        {
+          "level": 2,
+          "title": "A: Enterprise Architecture Benefits",
+          "page": 72
+        },
+        {
+          "level": 2,
+          "title": "B: Principles from the TOGAF Standard",
+          "page": 73
+        },
+        {
+          "level": 2,
+          "title": "C: Services Proposed for the TOGAF Standard",
+          "page": 76
+        },
+        {
+          "level": 3,
+          "title": "C.1. Requirements and Elicitation",
+          "page": 77
+        },
+        {
+          "level": 3,
+          "title": "C.2. Architecture Planning",
+          "page": 78
+        },
+        {
+          "level": 3,
+          "title": "C.3. Design Support",
+          "page": 78
+        },
+        {
+          "level": 3,
+          "title": "C.4. Development Support",
+          "page": 79
+        },
+        {
+          "level": 3,
+          "title": "C.5. Enterprise Support",
+          "page": 80
+        },
+        {
+          "level": 3,
+          "title": "C.6. Enterprise Architecture Practice Development Support",
+          "page": 81
+        },
+        {
+          "level": 3,
+          "title": "C.7. Services Mapped to ADM Phases",
+          "page": 82
+        },
+        {
+          "level": 2,
+          "title": "D: Rationalizing the TOGAF and DPBoK Standards",
+          "page": 83
+        },
+        {
+          "level": 3,
+          "title": "D.1. Organizational Reality, Capabilities, and Dependencies",
+          "page": 84
+        },
+        {
+          "level": 4,
+          "title": "D.1.1. Aspect: Enterprise Architecture Benefits",
+          "page": 84
+        },
+        {
+          "level": 4,
+          "title": "D.1.2. Aspect: Enterprise Architecture Services",
+          "page": 84
+        },
+        {
+          "level": 3,
+          "title": "D.2. Integrating “Outside-In” and “Inside-Out” Views",
+          "page": 85
+        },
+        {
+          "level": 4,
+          "title": "D.2.1. Aspect: Enterprise Architecture Benefits",
+          "page": 85
+        },
+        {
+          "level": 4,
+          "title": "D.2.2. Aspect: Enterprise Architecture Services",
+          "page": 85
+        },
+        {
+          "level": 3,
+          "title": "D.3. Strategic Alignment and Synergy",
+          "page": 85
+        },
+        {
+          "level": 4,
+          "title": "D.3.1. Aspect: Enterprise Architecture Benefits",
+          "page": 85
+        },
+        {
+          "level": 4,
+          "title": "D.3.2. Aspect: Enterprise Architecture Services",
+          "page": 85
+        },
+        {
+          "level": 3,
+          "title": "D.4. Enabling Innovation While Managing Technical Debt",
+          "page": 86
+        },
+        {
+          "level": 4,
+          "title": "D.4.1. Aspect: Enterprise Architecture Benefits",
+          "page": 86
+        },
+        {
+          "level": 4,
+          "title": "D.4.2. Aspect: Enterprise Architecture Services",
+          "page": 86
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 87
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G20Fe.pdf",
+        "file_path": "data/extended_topics/G20Fe.pdf",
+        "title": "TOGAF® Series Guide:  Enabling Enterprise Agility",
+        "author": "",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 46,
+        "extracted_title": "Enabling Enterprise Agility"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Enabling Enterprise Agility : The Open Group TOGAF® Series Guide",
+          "page": 1
+        },
+        {
+          "level": 1,
+          "title": "Table of Contents",
+          "page": 2
+        },
+        {
+          "level": 1,
+          "title": "Enabling Enterprise Agility",
+          "page": 4
+        },
+        {
+          "level": 2,
+          "title": "Preface",
+          "page": 6
+        },
+        {
+          "level": 3,
+          "title": "The Open Group",
+          "page": 6
+        },
+        {
+          "level": 3,
+          "title": "The TOGAF® Standard, a Standard of The Open Group",
+          "page": 6
+        },
+        {
+          "level": 3,
+          "title": "This Document",
+          "page": 6
+        },
+        {
+          "level": 3,
+          "title": "About the TOGAF® Series Guides",
+          "page": 7
+        },
+        {
+          "level": 2,
+          "title": "About the Author",
+          "page": 8
+        },
+        {
+          "level": 2,
+          "title": "Acknowledgments",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "Trademarks",
+          "page": 10
+        },
+        {
+          "level": 2,
+          "title": "Referenced Documents",
+          "page": 1
+        },
+        {
+          "level": 2,
+          "title": "Chapter 1. Introduction",
+          "page": 12
+        },
+        {
+          "level": 3,
+          "title": "1.1. What is Meant by Agility and Why is it Important?",
+          "page": 12
+        },
+        {
+          "level": 3,
+          "title": "1.2. What is the Role of Enterprise Architecture?",
+          "page": 12
+        },
+        {
+          "level": 3,
+          "title": "1.3. The Demand for Agility is Not New!",
+          "page": 13
+        },
+        {
+          "level": 3,
+          "title": "1.4. How Does that Relate to Today’s Imperative for Increased Agility?",
+          "page": 14
+        },
+        {
+          "level": 2,
+          "title": "Chapter 2. Definitions",
+          "page": 15
+        },
+        {
+          "level": 3,
+          "title": "2.1. Agile",
+          "page": 15
+        },
+        {
+          "level": 3,
+          "title": "2.2. Agile Architecture",
+          "page": 15
+        },
+        {
+          "level": 3,
+          "title": "2.3. Agile Product Owner",
+          "page": 15
+        },
+        {
+          "level": 3,
+          "title": "2.4. Minimum Viable Architecture",
+          "page": 15
+        },
+        {
+          "level": 3,
+          "title": "2.5. Minimum Viable Product",
+          "page": 15
+        },
+        {
+          "level": 3,
+          "title": "2.6. Product",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "Chapter 3. Overview of the TOGAF Architecture Development Method",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "Chapter 4. Developing Architecture in an Agile Way",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "4.1. Different Levels of Detail Enable Agility",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "4.2. Transition Architectures",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "4.3. A Practical Approach to Structuring Agile Enterprise Architecture",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "4.4. Architecture Levels and Iterations",
+          "page": 22
+        },
+        {
+          "level": 4,
+          "title": "4.4.1. Strategic Architecture",
+          "page": 22
+        },
+        {
+          "level": 4,
+          "title": "4.4.2. Segment Architecture",
+          "page": 23
+        },
+        {
+          "level": 4,
+          "title": "4.4.3. Capability Architecture",
+          "page": 24
+        },
+        {
+          "level": 4,
+          "title": "4.4.4. Governance in Architecture Iterations",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "4.5. ADM Levels and Phases Mapped to Agile Concepts",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "4.6. Set-Based Concurrent Engineering",
+          "page": 28
+        },
+        {
+          "level": 3,
+          "title": "4.7. Selecting Delivery Styles",
+          "page": 28
+        },
+        {
+          "level": 4,
+          "title": "4.7.1. The Three Delivery Styles",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "4.8. Agility at the Highest Levels of Architecture",
+          "page": 31
+        },
+        {
+          "level": 2,
+          "title": "Chapter 5. Using Agile Product Management Techniques",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "5.1. Establishing the Enterprise Architecture Capability",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "5.2. Product Development and Architecture",
+          "page": 34
+        },
+        {
+          "level": 4,
+          "title": "5.2.1. Define Problem",
+          "page": 35
+        },
+        {
+          "level": 4,
+          "title": "5.2.2. Define Baseline",
+          "page": 37
+        },
+        {
+          "level": 4,
+          "title": "5.2.3. Define Target",
+          "page": 38
+        },
+        {
+          "level": 4,
+          "title": "5.2.4. Develop Target",
+          "page": 38
+        },
+        {
+          "level": 4,
+          "title": "5.2.5. Govern and Manage Change",
+          "page": 39
+        },
+        {
+          "level": 3,
+          "title": "5.3. Architecture, Product Development, and Delivery",
+          "page": 40
+        },
+        {
+          "level": 4,
+          "title": "5.3.1. Identification of a New Need – Define and Identify the Problem",
+          "page": 40
+        },
+        {
+          "level": 4,
+          "title": "5.3.2. Define Target",
+          "page": 40
+        },
+        {
+          "level": 4,
+          "title": "5.3.3. Projects versus Products",
+          "page": 42
+        },
+        {
+          "level": 3,
+          "title": "5.4. Architecture Artifacts",
+          "page": 43
+        },
+        {
+          "level": 4,
+          "title": "5.4.1. Automation of Enterprise Architecture",
+          "page": 43
+        },
+        {
+          "level": 4,
+          "title": "5.4.2. Minimalistic Artifacts",
+          "page": 43
+        },
+        {
+          "level": 3,
+          "title": "5.5. TOGAF ADM Phases and Artifacts Supporting Product Architecture",
+          "page": 43
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G18Ae.pdf",
+        "file_path": "data/extended_topics/G18Ae.pdf",
+        "title": "TOGAF® Series Guide:  Business Models",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 27,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.1 Overview",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.2 Objectives",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "2 What is a Business Model?",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "3 The Impact and Benefit of Business Models",
+          "page": 14
+        },
+        {
+          "level": 1,
+          "title": "4 The Relationship between Business Models and Business Architecture",
+          "page": 15
+        },
+        {
+          "level": 1,
+          "title": "5 Using Business Models in the TOGAF Standard",
+          "page": 17
+        },
+        {
+          "level": 1,
+          "title": "6 A Structured Approach for Business Model Innovation",
+          "page": 19
+        },
+        {
+          "level": 1,
+          "title": "7 Example of a Business Model Framework",
+          "page": 21
+        },
+        {
+          "level": 1,
+          "title": "8 Conclusion",
+          "page": 24
+        },
+        {
+          "level": 1,
+          "title": "A Overview of the Business Model Canvas",
+          "page": 25
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 27
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G210e.pdf",
+        "file_path": "data/extended_topics/G210e.pdf",
+        "title": "TOGAF® Series Guide:  Applying the TOGAF ADM using Agile Sprints",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 37,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "2 Definitions used in this Guide",
+          "page": 13
+        },
+        {
+          "level": 1,
+          "title": "3 How can Sprints be used with the TOGAF Standard?",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "3.1 Why Sprints?",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "3.2 Enterprise Architecture, Solutions, Products, and CI/CD",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.3 How to Sprint in the TOGAF ADM",
+          "page": 16
+        },
+        {
+          "level": 3,
+          "title": "3.3.1 Sprints",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "3.3.2 Demo, Outcome, Retrospective, and Planning (DORP)",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "3.3.3 Business Change versus Sprint Backlog",
+          "page": 19
+        },
+        {
+          "level": 3,
+          "title": "3.3.4 First Sprint (Sprint Zero or Strategic Sprint)",
+          "page": 19
+        },
+        {
+          "level": 3,
+          "title": "3.3.5 Enterprise Architecture Development Agility",
+          "page": 21
+        },
+        {
+          "level": 3,
+          "title": "3.3.6 Solution Collaboration",
+          "page": 22
+        },
+        {
+          "level": 3,
+          "title": "3.3.7 Cross-Development Collaboration",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "3.3.8 Cross-Functional Agility",
+          "page": 26
+        },
+        {
+          "level": 1,
+          "title": "4 TOGAF Phases and Sprints",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "4.1 Phase A – Evolutionary Approach",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "4.2 Phases B, C, D, and E",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "4.3 Phases E and F",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "4.4 Phase G – Implementation Governance",
+          "page": 30
+        },
+        {
+          "level": 2,
+          "title": "4.5 Phase H – Architecture Change Management",
+          "page": 31
+        },
+        {
+          "level": 1,
+          "title": "5 Other Enterprise Architecture Perspectives",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "5.1 Purpose-Based Enterprise Architecture",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "5.2 Enterprise Architecture and Sprints on Different Architecture Levels",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "5.3 Length of Sprints",
+          "page": 33
+        },
+        {
+          "level": 2,
+          "title": "5.4 Architecture Governance and Sprints",
+          "page": 34
+        },
+        {
+          "level": 2,
+          "title": "5.5 Architecture Demo, Retrospectives, and Sprint Planning",
+          "page": 35
+        },
+        {
+          "level": 1,
+          "title": "A Acronyms and Abbreviations",
+          "page": 36
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 37
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G178e.pdf",
+        "file_path": "data/extended_topics/G178e.pdf",
+        "title": "TOGAF® Series Guide:  Value Streams",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 28,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "1.1 What is “Value”?",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "1.2 Approaches to Value Analysis",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "1.3 Value Streams in Business Architecture",
+          "page": 12
+        },
+        {
+          "level": 2,
+          "title": "1.4 Relationship of Value Streams to Other Business Architecture Concepts",
+          "page": 12
+        },
+        {
+          "level": 2,
+          "title": "1.5 Benefits of Value Streams and Value Stream Mapping",
+          "page": 13
+        },
+        {
+          "level": 1,
+          "title": "2 Value Stream Description, Decomposition, and Mapping",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "2.1 Describing a Value Stream",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "2.2 Decomposing a Value Stream",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "2.3 Mapping Capabilities to Value Stream Stages",
+          "page": 16
+        },
+        {
+          "level": 1,
+          "title": "3 Approach to Creating Value Streams",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "3.1 Guiding Principles",
+          "page": 17
+        },
+        {
+          "level": 1,
+          "title": "4 Value Stream Mapping Scenarios",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "4.1 Baseline Example",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "4.2 Mapping Value Streams to Business Capabilities",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "4.3 Heat Mapping Scenario",
+          "page": 22
+        },
+        {
+          "level": 1,
+          "title": "5 Conclusion",
+          "page": 24
+        },
+        {
+          "level": 1,
+          "title": "A Comparison of Alternative Value Analysis Techniques",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "A.1 Value Chain",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "A.2 Value Network",
+          "page": 26
+        },
+        {
+          "level": 2,
+          "title": "A.3 Lean Value Stream",
+          "page": 26
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G206e.pdf",
+        "file_path": "data/extended_topics/G206e.pdf",
+        "title": "TOGAF® Series Guide:  Organization Mapping",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 25,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "2 What is an Organization Map?",
+          "page": 12
+        },
+        {
+          "level": 1,
+          "title": "3 Differentiating between Organization Maps and Organization Charts",
+          "page": 14
+        },
+        {
+          "level": 1,
+          "title": "4 The Impact and Benefits of Organization Mapping",
+          "page": 17
+        },
+        {
+          "level": 1,
+          "title": "5 The Relationship to Business Capabilities, Value Streams, and Information Maps",
+          "page": 19
+        },
+        {
+          "level": 1,
+          "title": "6 Using Organization Maps with the TOGAF Standard",
+          "page": 21
+        },
+        {
+          "level": 1,
+          "title": "7 Putting Organization Maps into Practice",
+          "page": 22
+        },
+        {
+          "level": 1,
+          "title": "8 Conclusion",
+          "page": 24
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G174e.pdf",
+        "file_path": "data/extended_topics/G174e.pdf",
+        "title": "TOGAF SOA Guide",
+        "author": "The Open Group",
+        "subject": "The Open Group",
+        "total_pages": 59,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "1.1 Overview",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "2 Service-Oriented Architecture Defined",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "2.1 SOA Features",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "2.2 How Enterprise Architecture Supports Service-Orientation",
+          "page": 13
+        },
+        {
+          "level": 1,
+          "title": "3 Using the TOGAF Framework for Enterprise SOA",
+          "page": 15
+        },
+        {
+          "level": 1,
+          "title": "4 Preliminary Phase",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "4.1 The Principle of Service-Orientation",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "4.2 SOA Maturity Assessment",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "4.3 Governance and Support Strategy",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "4.4 Initial Architecture Repository and the SOA Reference Architecture",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "4.5 Partitions and Centers of Excellence: Establishing the Architecture “Team”",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "4.6 Summary",
+          "page": 24
+        },
+        {
+          "level": 1,
+          "title": "5 Phase A: Architecture Vision",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "5.1 The Nature of the Enterprise",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "5.2 Level of Detail of Implementation Specification",
+          "page": 26
+        },
+        {
+          "level": 2,
+          "title": "5.3 The Vision",
+          "page": 27
+        },
+        {
+          "level": 2,
+          "title": "5.4 Stakeholders, Concerns, and Business Requirements",
+          "page": 27
+        },
+        {
+          "level": 1,
+          "title": "6 TOGAF Architecture Development (Phases B, C, and D)",
+          "page": 29
+        },
+        {
+          "level": 2,
+          "title": "6.1 Phase B: Business Architecture",
+          "page": 33
+        },
+        {
+          "level": 2,
+          "title": "6.2 Phase C: Information Systems Architectures (Application and Data)",
+          "page": 36
+        },
+        {
+          "level": 2,
+          "title": "6.3 Phase D: Technology Architecture",
+          "page": 39
+        },
+        {
+          "level": 1,
+          "title": "7 Phase E: Opportunities & Solutions",
+          "page": 42
+        },
+        {
+          "level": 1,
+          "title": "8 Phase F: Migration Planning",
+          "page": 45
+        },
+        {
+          "level": 1,
+          "title": "9 Phase G: Implementation Governance",
+          "page": 46
+        },
+        {
+          "level": 1,
+          "title": "10 Phase H: Architecture Change Management",
+          "page": 47
+        },
+        {
+          "level": 1,
+          "title": "11 Summary",
+          "page": 48
+        },
+        {
+          "level": 1,
+          "title": "A Summary of Adjustments to TOGAF Phases",
+          "page": 50
+        },
+        {
+          "level": 1,
+          "title": "B Relations to the SOA Work Group Projects",
+          "page": 54
+        },
+        {
+          "level": 2,
+          "title": "B.1 SOA Reference Architecture",
+          "page": 54
+        },
+        {
+          "level": 2,
+          "title": "B.2 SOA Governance",
+          "page": 55
+        },
+        {
+          "level": 2,
+          "title": "B.3 Overview Metamodel – Solution Portfolio",
+          "page": 55
+        },
+        {
+          "level": 2,
+          "title": "B.4 SOA and Security",
+          "page": 56
+        },
+        {
+          "level": 2,
+          "title": "B.5 Legacy to SOA",
+          "page": 57
+        },
+        {
+          "level": 1,
+          "title": "C Architecture Levels and the Metamodel",
+          "page": 58
+        },
+        {
+          "level": 2,
+          "title": "C.1 Strategic Level",
+          "page": 58
+        },
+        {
+          "level": 2,
+          "title": "C.2 Segment Level",
+          "page": 58
+        },
+        {
+          "level": 2,
+          "title": "C.3 Capability Level",
+          "page": 58
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 59
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G175e.pdf",
+        "file_path": "data/extended_topics/G175e.pdf",
+        "title": "TOGAF TRM Guide",
+        "author": "The Open Group",
+        "subject": "The Open Group",
+        "total_pages": 49,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "2 Concepts",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "2.1 Role of the TRM in the Foundation Architecture",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "2.2 TRM Components",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "2.3 Other TRMs",
+          "page": 13
+        },
+        {
+          "level": 1,
+          "title": "3 High-Level Breakdown",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "3.1 Overview",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "3.2 Portability and Interoperability",
+          "page": 15
+        },
+        {
+          "level": 1,
+          "title": "4 TRM in Detail",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "4.1 Introduction",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "4.2 TRM Entities and Interfaces",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "4.3 Application Software",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "4.3.1 Business Applications",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "4.3.2 Infrastructure Applications",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "4.4 Application Platform",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "4.4.1 Platform Concept",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "4.4.2 Extending the TRM",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "4.4.3 Interfaces Between Services",
+          "page": 21
+        },
+        {
+          "level": 3,
+          "title": "4.4.4 Future Developments",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "4.5 Communications Infrastructure",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "4.6 Application Platform Interface",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "4.7 Communications Infrastructure Interface",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "4.8 Qualities",
+          "page": 22
+        },
+        {
+          "level": 1,
+          "title": "5 Application Platform – Taxonomy",
+          "page": 24
+        },
+        {
+          "level": 2,
+          "title": "5.1 Basic Principles",
+          "page": 24
+        },
+        {
+          "level": 2,
+          "title": "5.2 Application Platform Service Categories",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "5.2.1 Object-Oriented Provision of Services",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "5.3 Application Platform Service Qualities",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "5.3.1 Principles",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "5.3.2 Taxonomy of Service Qualities",
+          "page": 30
+        },
+        {
+          "level": 1,
+          "title": "6 Detailed Platform Taxonomy",
+          "page": 31
+        },
+        {
+          "level": 2,
+          "title": "6.1 Data Interchange Services",
+          "page": 31
+        },
+        {
+          "level": 3,
+          "title": "6.1.1 Data Management Services",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "6.2 Graphics and Imaging Services",
+          "page": 34
+        },
+        {
+          "level": 2,
+          "title": "6.3 International Operation Services",
+          "page": 34
+        },
+        {
+          "level": 2,
+          "title": "6.4 Location and Directory Services",
+          "page": 35
+        },
+        {
+          "level": 2,
+          "title": "6.5 Network Services",
+          "page": 36
+        },
+        {
+          "level": 2,
+          "title": "6.6 Operating System Services",
+          "page": 38
+        },
+        {
+          "level": 2,
+          "title": "6.7 Software Engineering Services",
+          "page": 39
+        },
+        {
+          "level": 2,
+          "title": "6.8 Transaction Processing Services",
+          "page": 40
+        },
+        {
+          "level": 2,
+          "title": "6.9 User Interface Services",
+          "page": 41
+        },
+        {
+          "level": 2,
+          "title": "6.10 Security Services",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "6.11 System and Network Management Services",
+          "page": 44
+        },
+        {
+          "level": 2,
+          "title": "6.12 Object-Oriented Provision of Services",
+          "page": 46
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 49
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G179e.pdf",
+        "file_path": "data/extended_topics/G179e.pdf",
+        "title": "TOGAF III-RM Guide",
+        "author": "The Open Group",
+        "subject": "The Open Group",
+        "total_pages": 29,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "1 Overview",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.1 Background",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.2 Components of the Model",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.3 Relationship to Other Parts of the TOGAF Framework",
+          "page": 10
+        },
+        {
+          "level": 2,
+          "title": "1.4 Key Business and Technical Drivers",
+          "page": 10
+        },
+        {
+          "level": 3,
+          "title": "1.4.1 Problem Space: The Need for Boundaryless Information Flow",
+          "page": 10
+        },
+        {
+          "level": 3,
+          "title": "1.4.2 Solution Space: The Need for Integrated Information Infrastructure",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "1.5 Status of the III-RM",
+          "page": 12
+        },
+        {
+          "level": 1,
+          "title": "2 High-Level View",
+          "page": 14
+        },
+        {
+          "level": 2,
+          "title": "2.1 Derivation of the III-RM from the TRM",
+          "page": 14
+        },
+        {
+          "level": 2,
+          "title": "2.2 High-Level III-RM Graphic",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "2.3 Components of the High-Level III-RM",
+          "page": 16
+        },
+        {
+          "level": 1,
+          "title": "3 Detailed Taxonomy",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "3.1 Detailed III-RM Graphic",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "3.2 Business Applications",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "3.2.1 Brokering Applications",
+          "page": 19
+        },
+        {
+          "level": 3,
+          "title": "3.2.2 Information Provider Applications",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "3.2.3 Information Consumer Applications",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "3.3 Infrastructure Applications",
+          "page": 22
+        },
+        {
+          "level": 3,
+          "title": "3.3.1 Development Tools",
+          "page": 22
+        },
+        {
+          "level": 3,
+          "title": "3.3.2 Management Utilities",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "3.4 Application Platform",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "3.4.1 Software Engineering Services",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "3.4.2 Security Services",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "3.4.3 Location and Directory Services",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "3.4.4 Human Interaction Services",
+          "page": 26
+        },
+        {
+          "level": 3,
+          "title": "3.4.5 Data Interchange Services",
+          "page": 27
+        },
+        {
+          "level": 3,
+          "title": "3.4.6 Data Management Services",
+          "page": 27
+        },
+        {
+          "level": 3,
+          "title": "3.4.7 Additional Operating System Services",
+          "page": 27
+        },
+        {
+          "level": 2,
+          "title": "3.5 Qualities",
+          "page": 28
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 29
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G211e.pdf",
+        "file_path": "data/extended_topics/G211e.pdf",
+        "title": "TOGAF® Series Guide:  Business Capabilities, Version 2",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 29,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "2 What is a Business Capability?",
+          "page": 12
+        },
+        {
+          "level": 2,
+          "title": "2.1 Defining a Business Capability",
+          "page": 12
+        },
+        {
+          "level": 3,
+          "title": "2.1.1 Naming Convention",
+          "page": 12
+        },
+        {
+          "level": 3,
+          "title": "2.1.2 Description",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "2.2 Elements to Implement Business Capabilities",
+          "page": 13
+        },
+        {
+          "level": 3,
+          "title": "2.2.1 People",
+          "page": 13
+        },
+        {
+          "level": 3,
+          "title": "2.2.2 Processes",
+          "page": 13
+        },
+        {
+          "level": 3,
+          "title": "2.2.3 Information",
+          "page": 14
+        },
+        {
+          "level": 3,
+          "title": "2.2.4 Resources",
+          "page": 14
+        },
+        {
+          "level": 1,
+          "title": "3 Business Capability Mapping",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "3.1 Approach",
+          "page": 15
+        },
+        {
+          "level": 3,
+          "title": "3.1.1 Organizational Structure",
+          "page": 16
+        },
+        {
+          "level": 3,
+          "title": "3.1.2 Business Model",
+          "page": 19
+        },
+        {
+          "level": 3,
+          "title": "3.1.3 Strategic Plans, Business Plans, and Financial Plans",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "3.2 Structuring the Business Capability Map",
+          "page": 19
+        },
+        {
+          "level": 3,
+          "title": "3.2.1 Business Capability Stratification",
+          "page": 19
+        },
+        {
+          "level": 3,
+          "title": "3.2.2 Leveling",
+          "page": 20
+        },
+        {
+          "level": 1,
+          "title": "4 The Impact and Benefits of Business Capability Mapping",
+          "page": 22
+        },
+        {
+          "level": 1,
+          "title": "5 Mapping Business Capabilities to Other Business Architecture Perspectives",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "5.1 Heat Mapping",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "5.2 Relationship Mapping",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "5.2.1 Capability/Organization Mapping",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "5.2.2 Capability/Value Stream Mapping",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "5.2.3 Capability/Business Process Mapping",
+          "page": 26
+        },
+        {
+          "level": 1,
+          "title": "6 Using Business Capability Maps with the TOGAF Standard",
+          "page": 27
+        },
+        {
+          "level": 1,
+          "title": "7 Conclusion",
+          "page": 28
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 29
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G212e.pdf",
+        "file_path": "data/extended_topics/G212e.pdf",
+        "title": "TOGAF® Series Guide:  Digital Technology Adoption: A Guide to Readiness Assessment and Roadmap Development",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 53,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 12
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "1.1 Overview",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "1.2 Objective",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "1.3 Current Literature",
+          "page": 16
+        },
+        {
+          "level": 1,
+          "title": "2 What is a Digital Technology Readiness Assessment?",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.1 Overview",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.2 Problem Statement",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.3 Current Landscape",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "2.4 Motivation and Drivers",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "2.5 Focus and Goals",
+          "page": 21
+        },
+        {
+          "level": 1,
+          "title": "3 The Impact and Benefits of Readiness Assessment",
+          "page": 22
+        },
+        {
+          "level": 1,
+          "title": "4 Factors Impacting Digital Technology Adoption",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "4.1 Foundational Factors Description",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "4.1.1 Vision",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "4.1.2 Sponsorship and Direction",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "4.1.3 IT Capability",
+          "page": 26
+        },
+        {
+          "level": 3,
+          "title": "4.1.4 Culture",
+          "page": 26
+        },
+        {
+          "level": 3,
+          "title": "4.1.5 Scope and Scale",
+          "page": 27
+        },
+        {
+          "level": 3,
+          "title": "4.1.6 Business Rationale",
+          "page": 28
+        },
+        {
+          "level": 3,
+          "title": "4.1.7 Implementation Approach",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "4.2 Impact Factors Description",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "4.2.1 Business Model Adaptability",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "4.2.2 Skills and Competence",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "4.2.3 Technology Maturity",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "4.2.4 Ecosystem",
+          "page": 31
+        },
+        {
+          "level": 3,
+          "title": "4.2.5 Governance and Compliance",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "4.3 Sustaining Factors Description",
+          "page": 32
+        },
+        {
+          "level": 3,
+          "title": "4.3.1 Value Realization",
+          "page": 32
+        },
+        {
+          "level": 3,
+          "title": "4.3.2 Policy and Regulations",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "4.3.3 Funding and Resources",
+          "page": 34
+        },
+        {
+          "level": 1,
+          "title": "5 Charting the Course for Digital Technology Adoption",
+          "page": 35
+        },
+        {
+          "level": 2,
+          "title": "5.1 Step 1: Select the Adoption Approach",
+          "page": 35
+        },
+        {
+          "level": 2,
+          "title": "5.2 Step 2: Perform Digital Technology Readiness Assessment",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "5.3 Step 3: Identify Factors Needing Management Attention",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "5.4 Step 4: Address Shortcomings and Initiate Digital Technology Adoption",
+          "page": 39
+        },
+        {
+          "level": 1,
+          "title": "6 Architectural Implication and Alignment to the TOGAF ADM",
+          "page": 41
+        },
+        {
+          "level": 1,
+          "title": "7 Conclusion",
+          "page": 44
+        },
+        {
+          "level": 1,
+          "title": "A Ready-to-Use Assessment Questionnaire",
+          "page": 45
+        },
+        {
+          "level": 2,
+          "title": "A.1 Explanation of the Scale Used",
+          "page": 45
+        },
+        {
+          "level": 2,
+          "title": "A.2 Digital Technology Readiness Assessment – Questionnaire",
+          "page": 45
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 53
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G21Ie.pdf",
+        "file_path": "data/extended_topics/G21Ie.pdf",
+        "title": "TOGAF® Series Guide:  Microservices Architecture (MSA)",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 52,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 12
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "1.1 Overview",
+          "page": 13
+        },
+        {
+          "level": 1,
+          "title": "2 Microservices Architecture Defined",
+          "page": 15
+        },
+        {
+          "level": 1,
+          "title": "3 Enterprise Architecture in a Distributed World",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.1 Overview",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.2 Implications for Business Architecture",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "3.3 Implications for Data Architecture",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "3.4 Implications for Application Architecture",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "3.5 Implications for Technology Architecture",
+          "page": 18
+        },
+        {
+          "level": 1,
+          "title": "4 Using the TOGAF Framework for MSA",
+          "page": 19
+        },
+        {
+          "level": 1,
+          "title": "5 Preliminary Phase",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "5.1 The Principles of MSA",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "5.2 Maturity and Readiness Assessment",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "5.3 Governance and Support Strategy",
+          "page": 24
+        },
+        {
+          "level": 2,
+          "title": "5.4 Initial Architecture Repository and the MSA Reference Architecture",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "5.5 Partitions and Distribution of Responsibility: Establishing the Architecture “Team”",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "5.6 Summary",
+          "page": 28
+        },
+        {
+          "level": 1,
+          "title": "6 Phase A: Architecture Vision",
+          "page": 30
+        },
+        {
+          "level": 2,
+          "title": "6.1 The Nature of the Project",
+          "page": 31
+        },
+        {
+          "level": 2,
+          "title": "6.2 Level of Detail of Implementation Specification",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "6.3 The Vision",
+          "page": 33
+        },
+        {
+          "level": 2,
+          "title": "6.4 Stakeholders, Concerns, and Business Requirements",
+          "page": 33
+        },
+        {
+          "level": 1,
+          "title": "7 Phase B: Business Architecture",
+          "page": 34
+        },
+        {
+          "level": 2,
+          "title": "7.1 Business Function Decomposition",
+          "page": 35
+        },
+        {
+          "level": 2,
+          "title": "7.2 Constraints",
+          "page": 36
+        },
+        {
+          "level": 1,
+          "title": "8 Phase C: Information Systems Architectures (Data and Application)",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "8.1 Data Architecture",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "8.2 Application Architecture",
+          "page": 38
+        },
+        {
+          "level": 1,
+          "title": "9 Phase D: Technology Architecture",
+          "page": 40
+        },
+        {
+          "level": 2,
+          "title": "9.1 Microservices",
+          "page": 40
+        },
+        {
+          "level": 2,
+          "title": "9.2 Steps",
+          "page": 41
+        },
+        {
+          "level": 1,
+          "title": "10 Phase E: Opportunities & Solutions",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "10.1 Overview",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "10.2 Scope Transformation",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "10.3 Organizational Transformation",
+          "page": 43
+        },
+        {
+          "level": 2,
+          "title": "10.4 Technology Transformation",
+          "page": 43
+        },
+        {
+          "level": 3,
+          "title": "10.4.1 Data Transformation",
+          "page": 43
+        },
+        {
+          "level": 2,
+          "title": "10.5 Artifacts",
+          "page": 44
+        },
+        {
+          "level": 1,
+          "title": "11 Phase F: Migration Planning",
+          "page": 45
+        },
+        {
+          "level": 2,
+          "title": "11.1 Microservices Work Packages",
+          "page": 45
+        },
+        {
+          "level": 2,
+          "title": "11.2 Intentional and Emergent Architecture",
+          "page": 46
+        },
+        {
+          "level": 2,
+          "title": "11.3 Value and Cost Reporting",
+          "page": 46
+        },
+        {
+          "level": 1,
+          "title": "12 Phase G: Implementation Governance",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "12.1 Microservices Defined",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "12.2 Governance Approach",
+          "page": 47
+        },
+        {
+          "level": 1,
+          "title": "13 Phase H: Architecture Change Management",
+          "page": 49
+        },
+        {
+          "level": 2,
+          "title": "13.1 Organizational Architecture Processes",
+          "page": 49
+        },
+        {
+          "level": 2,
+          "title": "13.2 Solution Architecture",
+          "page": 49
+        },
+        {
+          "level": 1,
+          "title": "14 Summary",
+          "page": 50
+        },
+        {
+          "level": 1,
+          "title": "Acronyms & Abbreviations",
+          "page": 51
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 52
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G176e.pdf",
+        "file_path": "data/extended_topics/G176e.pdf",
+        "title": "TOGAF® Series Guide:  Business Scenarios",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 51,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "2 Benefits of Business Scenarios",
+          "page": 14
+        },
+        {
+          "level": 1,
+          "title": "3 Creating the Business Scenario",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.1 The Overall Process",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.2 Steps",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "3.2.1 Planning Step",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "3.2.2 Gathering Step",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "3.2.3 Analyzing Step",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "3.2.4 Documenting Step",
+          "page": 21
+        },
+        {
+          "level": 3,
+          "title": "3.2.5 Reviewing Step",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "3.3 Phases",
+          "page": 22
+        },
+        {
+          "level": 3,
+          "title": "3.3.1 Premise Formulation Phase",
+          "page": 22
+        },
+        {
+          "level": 3,
+          "title": "3.3.2 Initial Verification Phase",
+          "page": 23
+        },
+        {
+          "level": 3,
+          "title": "3.3.3 Refinement Phase",
+          "page": 23
+        },
+        {
+          "level": 1,
+          "title": "4 Contents of a Business Scenario",
+          "page": 25
+        },
+        {
+          "level": 1,
+          "title": "5 Contributions to the Business Scenario",
+          "page": 27
+        },
+        {
+          "level": 1,
+          "title": "6 Business Scenarios and the TOGAF ADM",
+          "page": 28
+        },
+        {
+          "level": 1,
+          "title": "7 Developing Business Scenarios",
+          "page": 29
+        },
+        {
+          "level": 2,
+          "title": "7.1 General Guidelines",
+          "page": 29
+        },
+        {
+          "level": 2,
+          "title": "7.2 Questions to Ask for Each Area",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "7.2.1 Identifying, Documenting, and Ranking the Problem",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "7.2.2 Identifying the Business and Technical Environment and Documenting in Models",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "7.2.3 Identifying and Documenting Objectives",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "7.2.4 Identifying Human Actors and their Place in the Business Model",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "7.2.5 Identifying Computer Actors and their Place in the Technology Model",
+          "page": 31
+        },
+        {
+          "level": 3,
+          "title": "7.2.6 Documenting Roles, Responsibilities, Measures of Success, and Required Scripts",
+          "page": 31
+        },
+        {
+          "level": 3,
+          "title": "7.2.7 Checking for Fitness-for-Purpose and Refining, if Necessary",
+          "page": 31
+        },
+        {
+          "level": 1,
+          "title": "8 Business Scenario Documentation",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "8.1 Textual Documentation",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "8.2 Business Scenario Models",
+          "page": 32
+        },
+        {
+          "level": 1,
+          "title": "9 Guidelines on Goals and Objectives",
+          "page": 34
+        },
+        {
+          "level": 2,
+          "title": "9.1 The Importance of Goals",
+          "page": 34
+        },
+        {
+          "level": 2,
+          "title": "9.2 The Importance of SMART Objectives",
+          "page": 34
+        },
+        {
+          "level": 3,
+          "title": "9.2.1 Example of Making Objectives SMART",
+          "page": 34
+        },
+        {
+          "level": 2,
+          "title": "9.3 Categories of Goals and Objectives",
+          "page": 35
+        },
+        {
+          "level": 3,
+          "title": "9.3.1 Goal: Improve Business Process Performance",
+          "page": 36
+        },
+        {
+          "level": 3,
+          "title": "9.3.2 Goal: Decrease Costs",
+          "page": 36
+        },
+        {
+          "level": 3,
+          "title": "9.3.3 Goal: Improve Business Operations",
+          "page": 36
+        },
+        {
+          "level": 3,
+          "title": "9.3.4 Goal: Improve Management Efficacy",
+          "page": 36
+        },
+        {
+          "level": 3,
+          "title": "9.3.5 Goal: Reduce Risk",
+          "page": 36
+        },
+        {
+          "level": 3,
+          "title": "9.3.6 Goal: Improve Effectiveness of IT Organization",
+          "page": 37
+        },
+        {
+          "level": 3,
+          "title": "9.3.7 Goal: Improve User Productivity",
+          "page": 37
+        },
+        {
+          "level": 3,
+          "title": "9.3.8 Goal: Improve Portability and Scalability",
+          "page": 37
+        },
+        {
+          "level": 3,
+          "title": "9.3.9 Goal: Improve Interoperability",
+          "page": 38
+        },
+        {
+          "level": 3,
+          "title": "9.3.10 Goal: Increase Vendor Independence",
+          "page": 38
+        },
+        {
+          "level": 3,
+          "title": "9.3.11 Goal: Reduce Lifecycle Costs",
+          "page": 38
+        },
+        {
+          "level": 3,
+          "title": "9.3.12 Goal: Improve Security",
+          "page": 39
+        },
+        {
+          "level": 3,
+          "title": "9.3.13 Goal: Improve Manageability",
+          "page": 39
+        },
+        {
+          "level": 1,
+          "title": "10 Roles",
+          "page": 40
+        },
+        {
+          "level": 1,
+          "title": "11 Checklists",
+          "page": 41
+        },
+        {
+          "level": 2,
+          "title": "11.1 Checklist – Premise Formulation",
+          "page": 41
+        },
+        {
+          "level": 2,
+          "title": "11.2 Checklist – Plan",
+          "page": 41
+        },
+        {
+          "level": 2,
+          "title": "11.3 Checklist – Gather",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "11.4 Checklist – Analyze",
+          "page": 43
+        },
+        {
+          "level": 2,
+          "title": "11.5 Checklist – Document",
+          "page": 43
+        },
+        {
+          "level": 2,
+          "title": "11.6 Checklist – Review",
+          "page": 44
+        },
+        {
+          "level": 1,
+          "title": "12 Techniques and Tips",
+          "page": 45
+        },
+        {
+          "level": 2,
+          "title": "12.1 On Active and Reflective Listening",
+          "page": 45
+        },
+        {
+          "level": 2,
+          "title": "12.2 On Brainstorming and Affinity Analysis",
+          "page": 46
+        },
+        {
+          "level": 2,
+          "title": "12.3 Introduce your Neighbor",
+          "page": 46
+        },
+        {
+          "level": 2,
+          "title": "12.4 We Believe",
+          "page": 46
+        },
+        {
+          "level": 2,
+          "title": "12.5 On Money or Credit Voting Prioritization",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "12.6 On Multi-Voting and Rank Ordering Prioritization",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "12.7 On Role Play",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "12.8 On Alternative Analysis and Decision Matrix",
+          "page": 48
+        },
+        {
+          "level": 1,
+          "title": "13 Summary",
+          "page": 49
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 51
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G21De.pdf",
+        "file_path": "data/extended_topics/G21De.pdf",
+        "title": "TOGAF® Series Guide:  Government Reference Model",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 74,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "1.1 Objective",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "1.2 Overview",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "1.3 What is the Government Reference Model?",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "1.4 The TOGAF Standard and the Government Reference Model",
+          "page": 20
+        },
+        {
+          "level": 1,
+          "title": "2 International Affairs and Trade",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "2.1 International Affairs and Trade Taxonomy",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "2.2 Key Drivers for Change",
+          "page": 22
+        },
+        {
+          "level": 1,
+          "title": "3 Defense and Security",
+          "page": 24
+        },
+        {
+          "level": 2,
+          "title": "3.1 Defense and Security Taxonomy",
+          "page": 24
+        },
+        {
+          "level": 2,
+          "title": "3.2 Key Drivers for Change",
+          "page": 26
+        },
+        {
+          "level": 1,
+          "title": "4 General Government and Local Services",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "4.1 General Government and Local Services Taxonomy",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "4.2 Key Drivers for Change",
+          "page": 31
+        },
+        {
+          "level": 1,
+          "title": "5 Young People and Education",
+          "page": 33
+        },
+        {
+          "level": 2,
+          "title": "5.1 Young People and Education Taxonomy",
+          "page": 33
+        },
+        {
+          "level": 2,
+          "title": "5.2 Key Drivers for Change",
+          "page": 35
+        },
+        {
+          "level": 1,
+          "title": "6 Health and Community Wellbeing",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "6.1 Health and Community Wellbeing Taxonomy",
+          "page": 38
+        },
+        {
+          "level": 2,
+          "title": "6.2 Key Drivers for Change",
+          "page": 40
+        },
+        {
+          "level": 1,
+          "title": "7 Judiciary, Justice, and Home Affairs",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "7.1 Judiciary, Justice, and Home Affairs Taxonomy",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "7.2 Key Drivers for Change",
+          "page": 44
+        },
+        {
+          "level": 1,
+          "title": "8 Financial",
+          "page": 46
+        },
+        {
+          "level": 2,
+          "title": "8.1 Financial Taxonomy",
+          "page": 46
+        },
+        {
+          "level": 2,
+          "title": "8.2 Key Drivers for Change",
+          "page": 48
+        },
+        {
+          "level": 1,
+          "title": "9 Growth, Housing, and Environment",
+          "page": 50
+        },
+        {
+          "level": 2,
+          "title": "9.1 Growth, Housing, and Environment Taxonomy",
+          "page": 50
+        },
+        {
+          "level": 2,
+          "title": "9.2 Key Drivers for Change",
+          "page": 53
+        },
+        {
+          "level": 1,
+          "title": "10 Policy, Performance, Population, and Innovation",
+          "page": 55
+        },
+        {
+          "level": 2,
+          "title": "10.1 Policy, Performance, Population, and Innovation Taxonomy",
+          "page": 55
+        },
+        {
+          "level": 2,
+          "title": "10.2 Key Drivers for Change",
+          "page": 57
+        },
+        {
+          "level": 1,
+          "title": "11 Shared Services",
+          "page": 59
+        },
+        {
+          "level": 2,
+          "title": "11.1 Shared Services Taxonomy",
+          "page": 60
+        },
+        {
+          "level": 2,
+          "title": "11.2 Key Drivers for Change",
+          "page": 63
+        },
+        {
+          "level": 1,
+          "title": "12 Transport and Operations",
+          "page": 64
+        },
+        {
+          "level": 2,
+          "title": "12.1 Transport and Operations Taxonomy",
+          "page": 64
+        },
+        {
+          "level": 2,
+          "title": "12.2 Key Drivers for Change",
+          "page": 65
+        },
+        {
+          "level": 1,
+          "title": "13 Conclusion",
+          "page": 67
+        },
+        {
+          "level": 1,
+          "title": "A Government Reference Model Visual",
+          "page": 68
+        },
+        {
+          "level": 1,
+          "title": "Acronyms & Abbreviations",
+          "page": 73
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 74
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G198e.pdf",
+        "file_path": "data/extended_topics/G198e.pdf",
+        "title": "TOGAF® Series Guide:  Architecture Skills Framework",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 27,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.1 Objective",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.2 Overview",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "2 Need for an Enterprise Architecture Skills Framework",
+          "page": 10
+        },
+        {
+          "level": 2,
+          "title": "2.1 Definitional Rigor",
+          "page": 10
+        },
+        {
+          "level": 2,
+          "title": "2.2 Basis of an Enterprise Architecture Practice",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "3 Goals/Rationale",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "3.1 Certification of Enterprise Architects",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "3.2 Specific Benefits",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "4 Enterprise Architecture Role and Skill Categories",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "4.1 Overview",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "4.2 TOGAF Roles",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "4.3 Categories of Skills",
+          "page": 14
+        },
+        {
+          "level": 2,
+          "title": "4.4 Proficiency Levels",
+          "page": 15
+        },
+        {
+          "level": 1,
+          "title": "5 Enterprise Architecture Skill Definitions",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "5.1 Generic Skills",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "5.2 Business Skills & Methods",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "5.3 Enterprise Architecture Skills",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "5.4 Program or Project Management Skills",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "5.5 IT General Knowledge Skills",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "5.6 Technical IT Skills",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "5.7 Legal Environment",
+          "page": 19
+        },
+        {
+          "level": 1,
+          "title": "6 Role and Skills of the Enterprise Architect",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "6.1 Role Description",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "6.2 Characterization in Terms of the Enterprise Continuum",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "6.3 Key Characteristics of an Enterprise Architect",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "6.3.1 Skills and Experience in Producing Designs",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "6.3.2 Extensive Technical Breadth, with Technical Depth in One or a Few Disciplines",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "6.3.3 Method-Driven Approach to Execution",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "6.3.4 Full Project Scope Experience",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "6.3.5 Leadership",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "6.3.6 Personal and Professional Skills",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "6.3.7 Skills and Experience in One or More Industries",
+          "page": 25
+        },
+        {
+          "level": 1,
+          "title": "7 Conclusions",
+          "page": 26
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 27
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G233e.pdf",
+        "file_path": "data/extended_topics/G233e.pdf",
+        "title": "TOGAF® Series Guide:  Business Capability Planning",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 54,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 13
+        },
+        {
+          "level": 1,
+          "title": "2 The History of Capability-Based Planning",
+          "page": 15
+        },
+        {
+          "level": 1,
+          "title": "3 Business Capability Planning Modeling",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.1 Key ArchiMate Elements",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.2 ArchiMate Relationships",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "3.3 Architecture Modeling Tools",
+          "page": 19
+        },
+        {
+          "level": 1,
+          "title": "4 Doing Your Homework",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "4.1 Organizational Structure",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "4.2 Business Model",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "4.3 Financial, Business, and Strategic Plans",
+          "page": 23
+        },
+        {
+          "level": 3,
+          "title": "4.3.1 Financial Statement",
+          "page": 23
+        },
+        {
+          "level": 3,
+          "title": "4.3.2 Business and/or Strategic Plans",
+          "page": 23
+        },
+        {
+          "level": 3,
+          "title": "4.3.3 Balanced Scorecard",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "4.4 Application Catalog, Information Objects, and Exchanges",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "4.4.1 Retail Organization Application Catalog",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "4.4.2 Conceptual Data Model",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "4.4.3 Application Information Exchange Catalog",
+          "page": 25
+        },
+        {
+          "level": 1,
+          "title": "5 Value Streams",
+          "page": 27
+        },
+        {
+          "level": 2,
+          "title": "5.1 Value Streams in Business Capability Planning",
+          "page": 27
+        },
+        {
+          "level": 3,
+          "title": "5.1.1 Describing a Value Stream",
+          "page": 28
+        },
+        {
+          "level": 3,
+          "title": "5.1.2 Describing Value Stream Stages",
+          "page": 28
+        },
+        {
+          "level": 1,
+          "title": "6 Business Capabilities",
+          "page": 30
+        },
+        {
+          "level": 2,
+          "title": "6.1 Defining a Business Capability",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "6.1.1 Naming Convention",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "6.1.2 Description",
+          "page": 31
+        },
+        {
+          "level": 2,
+          "title": "6.2 Business Capability Catalog",
+          "page": 31
+        },
+        {
+          "level": 3,
+          "title": "6.2.1 Business Capability Catalog Model",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "6.3 Mapping Business Capabilities to Value Stream Stages",
+          "page": 33
+        },
+        {
+          "level": 2,
+          "title": "6.4 Business Capability Instances",
+          "page": 34
+        },
+        {
+          "level": 3,
+          "title": "6.4.1 Business Capability Instance Guidance",
+          "page": 34
+        },
+        {
+          "level": 3,
+          "title": "6.4.2 Acquire Retail Product Online Value Stream",
+          "page": 35
+        },
+        {
+          "level": 4,
+          "title": "6.4.2.1 Browse Online Store",
+          "page": 35
+        },
+        {
+          "level": 4,
+          "title": "6.4.2.2 Select Product(s) for Purchase",
+          "page": 35
+        },
+        {
+          "level": 4,
+          "title": "6.4.2.3 Review Basket",
+          "page": 35
+        },
+        {
+          "level": 4,
+          "title": "6.4.2.4 Purchase Products",
+          "page": 36
+        },
+        {
+          "level": 4,
+          "title": "6.4.2.5 Deliver Products",
+          "page": 36
+        },
+        {
+          "level": 1,
+          "title": "7 Business Capability Planning",
+          "page": 38
+        },
+        {
+          "level": 2,
+          "title": "7.1 Business Capability Instance Analysis Approach",
+          "page": 38
+        },
+        {
+          "level": 3,
+          "title": "7.1.1 Optimize a Business Capability Instance",
+          "page": 39
+        },
+        {
+          "level": 3,
+          "title": "7.1.2 Consolidate Business Capability Instances",
+          "page": 39
+        },
+        {
+          "level": 3,
+          "title": "7.1.3 Create a Business Capability Instance",
+          "page": 40
+        },
+        {
+          "level": 3,
+          "title": "7.1.4 Retire a Business Capability Instance",
+          "page": 40
+        },
+        {
+          "level": 3,
+          "title": "7.1.5 Updated Acquire Retail Product Online Value Stream – Abstracted",
+          "page": 40
+        },
+        {
+          "level": 2,
+          "title": "7.2 Planning Business Capability Instance Increments",
+          "page": 41
+        },
+        {
+          "level": 2,
+          "title": "7.3 Digital Transformation and Business Capability Planning",
+          "page": 43
+        },
+        {
+          "level": 1,
+          "title": "8 Conclusion",
+          "page": 44
+        },
+        {
+          "level": 1,
+          "title": "A Business Capability Catalog",
+          "page": 45
+        },
+        {
+          "level": 1,
+          "title": "B Other Frameworks",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "B.1 Business Process Modeling",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "B.2 Scaled Agile Framework Enterprise Value Streams",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "B.3 Journey Maps",
+          "page": 48
+        },
+        {
+          "level": 2,
+          "title": "B.4 Lean Value Stream",
+          "page": 49
+        },
+        {
+          "level": 2,
+          "title": "B.5 Porter Value Chain",
+          "page": 50
+        },
+        {
+          "level": 2,
+          "title": "B.6 Risk and Security Perspectives",
+          "page": 50
+        },
+        {
+          "level": 1,
+          "title": "C Recruit Employee Value Stream",
+          "page": 51
+        },
+        {
+          "level": 1,
+          "title": "Acronyms & Abbreviations",
+          "page": 53
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 54
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G21He.pdf",
+        "file_path": "data/extended_topics/G21He.pdf",
+        "title": "TOGAF® Series Guide:  TOGAF® Digital Business Reference Model (DBRM)",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 49,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "About the Author",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "1.1 Context",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "1.2 Scope of the DBRM",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "1.3 Structure of this Document",
+          "page": 14
+        },
+        {
+          "level": 2,
+          "title": "1.4 Future Directions",
+          "page": 15
+        },
+        {
+          "level": 1,
+          "title": "2 Key Concepts",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "2.1 Adaptive Systems Architecture",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "2.2 Architecture",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "2.3 Business Architecture",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "2.4 Business Capability",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "2.5 Business Ecosystem",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "2.6 Business Model",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "2.7 Business Process",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.8 Business Product",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.9 Business Service",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.10 Business System",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.11 Course of Action",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.12 Customer",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.13 Customer Experience",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.14 Customer Journey",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.15 Digitalization",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.16 Digitization",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.17 Digital Architecture",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.18 Digital Enterprise",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.19 Digital Platform",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.20 Digital Practices",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.21 Digital Product",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.22 Digital Technology",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "2.23 Digital Transformation",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "2.24 Domain Model: Domain-Driven Design",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "2.25 Ecosystem",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "2.26 Event Storming",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "2.27 Information Map",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "2.28 Journey Mapping",
+          "page": 19
+        },
+        {
+          "level": 2,
+          "title": "2.29 Operational Context Domain",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.30 Organizational Competency",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.31 Organization Map",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.32 Portfolio",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.33 Product",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.34 Product Architecture",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.35 Program",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.36 Project",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "2.37 Use-Case",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "2.38 User",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "2.39 Value Stream",
+          "page": 21
+        },
+        {
+          "level": 2,
+          "title": "2.40 Work System",
+          "page": 21
+        },
+        {
+          "level": 1,
+          "title": "3 DBRM Elements – High-Level Breakdown",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "3.1 Introduction",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "3.2 Digital Domain",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "3.3 Strategy Domain",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "3.4 Structural Domain",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "3.5 Operational Domain",
+          "page": 23
+        },
+        {
+          "level": 1,
+          "title": "4 DBRM Elements in Detail",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "4.1 Introduction",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "4.2 Digital Domain",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "4.2.1 Customer Focus",
+          "page": 25
+        },
+        {
+          "level": 3,
+          "title": "4.2.2 Digital Enterprise",
+          "page": 26
+        },
+        {
+          "level": 2,
+          "title": "4.3 Strategy Domain",
+          "page": 27
+        },
+        {
+          "level": 3,
+          "title": "4.3.1 Strategic Context",
+          "page": 27
+        },
+        {
+          "level": 3,
+          "title": "4.3.2 Business Motivation",
+          "page": 28
+        },
+        {
+          "level": 3,
+          "title": "4.3.3 Business Services and Products",
+          "page": 29
+        },
+        {
+          "level": 2,
+          "title": "4.4 Structural Domain",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "4.4.1 Ecosystem and Business Model",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "4.4.2 Operating Model",
+          "page": 31
+        },
+        {
+          "level": 3,
+          "title": "4.4.3 Business Capability Model",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "4.5 Operational Domain",
+          "page": 32
+        },
+        {
+          "level": 3,
+          "title": "4.5.1 Business Operating Environment",
+          "page": 32
+        },
+        {
+          "level": 3,
+          "title": "4.5.2 Digital Enablement",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "4.5.3 Enabling Digital Competencies",
+          "page": 34
+        },
+        {
+          "level": 1,
+          "title": "5 Digital Architecture Development",
+          "page": 36
+        },
+        {
+          "level": 2,
+          "title": "5.1 Introduction",
+          "page": 36
+        },
+        {
+          "level": 2,
+          "title": "5.2 O-AA Building Blocks",
+          "page": 36
+        },
+        {
+          "level": 2,
+          "title": "5.3 O-AA Development Building Blocks for Digital Architecture",
+          "page": 37
+        },
+        {
+          "level": 1,
+          "title": "6 TOGAF Standard Adoption",
+          "page": 40
+        },
+        {
+          "level": 2,
+          "title": "6.1 Introduction",
+          "page": 40
+        },
+        {
+          "level": 2,
+          "title": "6.2 TOGAF ADM Phases",
+          "page": 40
+        },
+        {
+          "level": 2,
+          "title": "6.3 Architecture Domains",
+          "page": 43
+        },
+        {
+          "level": 2,
+          "title": "6.4 Summary Classification Model",
+          "page": 46
+        },
+        {
+          "level": 1,
+          "title": "Acronyms & Abbreviations",
+          "page": 48
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 49
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G234e.pdf",
+        "file_path": "data/extended_topics/G234e.pdf",
+        "title": "TOGAF® Series Guide:  Information Architecture: Metadata Management",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 46,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "2 Relationship to Existing Standards from The Open Group",
+          "page": 12
+        },
+        {
+          "level": 2,
+          "title": "2.1 The ArchiMate® Specification",
+          "page": 12
+        },
+        {
+          "level": 2,
+          "title": "2.2 The TOGAF® Standard and Data Architecture",
+          "page": 13
+        },
+        {
+          "level": 1,
+          "title": "3 Metadata Management Capability",
+          "page": 14
+        },
+        {
+          "level": 2,
+          "title": "3.1 Metadata Management High-Level Reference Model",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "3.2 Metadata Management High-Level Business Functions",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "3.3 Metadata Management High-Level Application Functions",
+          "page": 18
+        },
+        {
+          "level": 1,
+          "title": "4 Process and Methodology",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "4.1 TOGAF Adaptation for a Metadata Management Capability",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "4.2 Metadata Management Guidelines for a Business Architecture (ADM Phase B)",
+          "page": 23
+        },
+        {
+          "level": 3,
+          "title": "4.2.1 Collect Metadata Requirements",
+          "page": 24
+        },
+        {
+          "level": 3,
+          "title": "4.2.2 Formalize Metadata Management Processes",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "4.3 Metadata Management Guidelines for Information Systems Architectures (ADM Phase C)",
+          "page": 26
+        },
+        {
+          "level": 1,
+          "title": "5 Reference Models",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "5.1 Metadata Management Reference Model – Detailed Business Functions",
+          "page": 32
+        },
+        {
+          "level": 2,
+          "title": "5.2 Metadata Management Reference Model – Detailed Application Functions",
+          "page": 36
+        },
+        {
+          "level": 1,
+          "title": "A Metadata Asset Definitions",
+          "page": 40
+        },
+        {
+          "level": 1,
+          "title": "Acronyms & Abbreviations",
+          "page": 45
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G238e.pdf",
+        "file_path": "data/extended_topics/G238e.pdf",
+        "title": "TOGAF Series Guide: BI & Analytics",
+        "author": "The Open Group",
+        "subject": "The Open Group",
+        "total_pages": 43,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "1.1 The ArchiMate® Modeling Notation",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "2 Business Intelligence & Analytics Capability",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "2.1 BI & Analytics High-Level Reference Model",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "2.2 BI & Analytics High-Level Business Functions Description",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "2.3 BI & Analytics High-Level Application Functions Description",
+          "page": 14
+        },
+        {
+          "level": 1,
+          "title": "3 Process and Methodology",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.1 TOGAF ADM Specialization for BI & Analytics Capability",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.2 Reference BI & Analytics Roadmap Steps (ADM Phase F – Migration Planning)",
+          "page": 18
+        },
+        {
+          "level": 3,
+          "title": "3.2.1 Step 1",
+          "page": 19
+        },
+        {
+          "level": 3,
+          "title": "3.2.2 Step 2",
+          "page": 20
+        },
+        {
+          "level": 3,
+          "title": "3.2.3 Step 3",
+          "page": 23
+        },
+        {
+          "level": 3,
+          "title": "3.2.4 Step 4",
+          "page": 25
+        },
+        {
+          "level": 1,
+          "title": "4 Reference Models",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "4.1 BI & Analytics Reference Model – Goals",
+          "page": 28
+        },
+        {
+          "level": 2,
+          "title": "4.2 BI & Analytics Reference Model – Detailed Business Functions",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "4.2.1 Description of the Business Functions",
+          "page": 31
+        },
+        {
+          "level": 2,
+          "title": "4.3 BI & Analytics Reference Model – Detailed Application Functions",
+          "page": 35
+        },
+        {
+          "level": 3,
+          "title": "4.3.1 Description of the Application Functions",
+          "page": 36
+        },
+        {
+          "level": 2,
+          "title": "4.4 BI & Analytics Reference Model – Requirements",
+          "page": 39
+        },
+        {
+          "level": 1,
+          "title": "Glossary",
+          "page": 41
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 43
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G184e.pdf",
+        "file_path": "data/extended_topics/G184e.pdf",
+        "title": "TOGAF® Series Guide:  The TOGAF Leader's Guide to Establishing and Evolving an EA Capability",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 130,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "1.1 How to Use this Guide with the TOGAF Framework",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "1.2 The State of Enterprise Architecture",
+          "page": 18
+        },
+        {
+          "level": 1,
+          "title": "2 Definitions",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.1 Enterprise",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.2 Enterprise Architecture (EA)",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.3 Enterprise Architecture (EA) Capability",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.4 Capability",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.5 Leader",
+          "page": 21
+        },
+        {
+          "level": 1,
+          "title": "3 General Concepts",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "3.1 Who is an EA Capability Leader?",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "3.2 What is an Enterprise?",
+          "page": 22
+        },
+        {
+          "level": 2,
+          "title": "3.3 What is an EA Capability and EA?",
+          "page": 23
+        },
+        {
+          "level": 2,
+          "title": "3.4 EA Lifecycle",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "3.5 EA and Other Fields",
+          "page": 25
+        },
+        {
+          "level": 2,
+          "title": "3.6 Characteristics of EA",
+          "page": 26
+        },
+        {
+          "level": 2,
+          "title": "3.7 Referenced Techniques",
+          "page": 26
+        },
+        {
+          "level": 1,
+          "title": "4 Enterprise Context and EA Context",
+          "page": 29
+        },
+        {
+          "level": 2,
+          "title": "4.1 What is the Enterprise and What is its Purpose?",
+          "page": 30
+        },
+        {
+          "level": 2,
+          "title": "4.2 What is the Enterprise’s Strategic Position, Approach, and Environment?",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "4.2.1 Business Model and Operating Model",
+          "page": 31
+        },
+        {
+          "level": 3,
+          "title": "4.2.2 Operating Environment and Compliance, Regulations, Industry Standards",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "4.2.3 Organization Model of the Enterprise",
+          "page": 34
+        },
+        {
+          "level": 3,
+          "title": "4.2.4 Scope the Impacted Teams",
+          "page": 35
+        },
+        {
+          "level": 3,
+          "title": "4.2.5 Econometric Model",
+          "page": 36
+        },
+        {
+          "level": 3,
+          "title": "4.2.6 Accountability Model and Decision Model",
+          "page": 37
+        },
+        {
+          "level": 3,
+          "title": "4.2.7 Risk Management Model",
+          "page": 38
+        },
+        {
+          "level": 2,
+          "title": "4.3 What is the Special Context for the EA Capability?",
+          "page": 40
+        },
+        {
+          "level": 3,
+          "title": "4.3.1 Financial Accounting Model",
+          "page": 40
+        },
+        {
+          "level": 3,
+          "title": "4.3.2 Strategic Planning Horizon",
+          "page": 41
+        },
+        {
+          "level": 3,
+          "title": "4.3.3 EA Principles",
+          "page": 41
+        },
+        {
+          "level": 1,
+          "title": "5 Business Objectives for the EA Capability",
+          "page": 43
+        },
+        {
+          "level": 2,
+          "title": "5.1 What is Expected?",
+          "page": 44
+        },
+        {
+          "level": 2,
+          "title": "5.2 What is the Depth and Breadth of EA?",
+          "page": 44
+        },
+        {
+          "level": 2,
+          "title": "5.3 What is the Organization Model for EA Capability?",
+          "page": 45
+        },
+        {
+          "level": 3,
+          "title": "5.3.1 Alignment of EA Capability Team in the Organization Model",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "5.4 How is Success Going to be Measured?",
+          "page": 49
+        },
+        {
+          "level": 3,
+          "title": "5.4.1 Revivalist and Bottom-Up EA Capability",
+          "page": 51
+        },
+        {
+          "level": 1,
+          "title": "6 Architecture Governance",
+          "page": 54
+        },
+        {
+          "level": 2,
+          "title": "6.1 Introduction to Governance",
+          "page": 54
+        },
+        {
+          "level": 3,
+          "title": "6.1.1 Key Characteristics",
+          "page": 55
+        },
+        {
+          "level": 2,
+          "title": "6.2 Essential Governance",
+          "page": 56
+        },
+        {
+          "level": 2,
+          "title": "6.3 What is the Current Reporting Framework?",
+          "page": 59
+        },
+        {
+          "level": 2,
+          "title": "6.4 What is the Current Risk Management Approach?",
+          "page": 60
+        },
+        {
+          "level": 3,
+          "title": "6.4.1 What is Risk?",
+          "page": 61
+        },
+        {
+          "level": 3,
+          "title": "6.4.2 Core Concepts of Enterprise Risk Management (ERM)",
+          "page": 61
+        },
+        {
+          "level": 2,
+          "title": "6.5 Existing Governance Process",
+          "page": 62
+        },
+        {
+          "level": 3,
+          "title": "6.5.1 Definition of Roles",
+          "page": 63
+        },
+        {
+          "level": 1,
+          "title": "7 Alignment with Other Frameworks",
+          "page": 64
+        },
+        {
+          "level": 2,
+          "title": "7.1 Create a Catalog of Frameworks",
+          "page": 64
+        },
+        {
+          "level": 2,
+          "title": "7.2 Intersection with EA Capability",
+          "page": 65
+        },
+        {
+          "level": 1,
+          "title": "8 Customization of Architecture Contents and Metamodel",
+          "page": 66
+        },
+        {
+          "level": 2,
+          "title": "8.1 What is the EA Capability’s Purpose Supporting Decision-Making and Governance?",
+          "page": 66
+        },
+        {
+          "level": 2,
+          "title": "8.2 Are there Specific Questions to be Addressed?",
+          "page": 67
+        },
+        {
+          "level": 2,
+          "title": "8.3 What Constitutes the Content Metamodel?",
+          "page": 68
+        },
+        {
+          "level": 2,
+          "title": "8.4 Information Managed by the EA Capability",
+          "page": 70
+        },
+        {
+          "level": 2,
+          "title": "8.5 Managing the Enterprise Repository",
+          "page": 71
+        },
+        {
+          "level": 1,
+          "title": "9 Organization Model for the EA Team",
+          "page": 74
+        },
+        {
+          "level": 2,
+          "title": "9.1 Shared Roles and Alignment",
+          "page": 75
+        },
+        {
+          "level": 2,
+          "title": "9.2 Alignment",
+          "page": 75
+        },
+        {
+          "level": 2,
+          "title": "9.3 Structure",
+          "page": 77
+        },
+        {
+          "level": 3,
+          "title": "9.3.1 Roles and Responsibilities",
+          "page": 79
+        },
+        {
+          "level": 3,
+          "title": "9.3.2 Skills Framework",
+          "page": 80
+        },
+        {
+          "level": 3,
+          "title": "9.3.3 Performance Evaluation (of the EA Capability)",
+          "page": 80
+        },
+        {
+          "level": 2,
+          "title": "9.4 Capacity",
+          "page": 81
+        },
+        {
+          "level": 3,
+          "title": "9.4.1 Recruiting to Build Capacity",
+          "page": 82
+        },
+        {
+          "level": 2,
+          "title": "9.5 Scoping the Depth and Breadth of Business Impact with the EA Capability",
+          "page": 82
+        },
+        {
+          "level": 3,
+          "title": "9.5.1 Value Chains, Value Streams, and Capabilities",
+          "page": 83
+        },
+        {
+          "level": 3,
+          "title": "9.5.2 Domains and Layers",
+          "page": 84
+        },
+        {
+          "level": 3,
+          "title": "9.5.3 Depth and Breadth",
+          "page": 86
+        },
+        {
+          "level": 3,
+          "title": "9.5.4 Impact of Time Dimension on Scope",
+          "page": 87
+        },
+        {
+          "level": 1,
+          "title": "10 Process Model",
+          "page": 88
+        },
+        {
+          "level": 2,
+          "title": "10.1 What are the Touch-Points with Existing Enterprise Processes?",
+          "page": 88
+        },
+        {
+          "level": 3,
+          "title": "10.1.1 Decision-Making Process Integration Model",
+          "page": 89
+        },
+        {
+          "level": 3,
+          "title": "10.1.2 Execution Process Integration Model",
+          "page": 90
+        },
+        {
+          "level": 3,
+          "title": "10.1.3 Strategy Development Process",
+          "page": 91
+        },
+        {
+          "level": 3,
+          "title": "10.1.4 Portfolio and Program Management Processes",
+          "page": 91
+        },
+        {
+          "level": 3,
+          "title": "10.1.5 Project Initiation, Project Management, and Change Management Processes",
+          "page": 91
+        },
+        {
+          "level": 3,
+          "title": "10.1.6 Budgeting Processes",
+          "page": 92
+        },
+        {
+          "level": 3,
+          "title": "10.1.7 Operational Management Processes",
+          "page": 92
+        },
+        {
+          "level": 3,
+          "title": "10.1.8 Governance Processes",
+          "page": 92
+        },
+        {
+          "level": 3,
+          "title": "10.1.9 Enterprise Risk Management (ERM) Process",
+          "page": 94
+        },
+        {
+          "level": 2,
+          "title": "10.2 How is ADM Iteration Realized in Practice?",
+          "page": 94
+        },
+        {
+          "level": 1,
+          "title": "11 Create the EA Capability Roadmap",
+          "page": 99
+        },
+        {
+          "level": 2,
+          "title": "11.1 Activities to Create a Roadmap",
+          "page": 99
+        },
+        {
+          "level": 2,
+          "title": "11.2 Linking the EA Value Map to the Enterprise Value Map",
+          "page": 100
+        },
+        {
+          "level": 2,
+          "title": "11.3 EA Capability Model",
+          "page": 102
+        },
+        {
+          "level": 1,
+          "title": "12 Establishing and Evolving the EA Capability",
+          "page": 105
+        },
+        {
+          "level": 2,
+          "title": "12.1 Recap of Concepts",
+          "page": 105
+        },
+        {
+          "level": 2,
+          "title": "12.2 Start with Purpose",
+          "page": 106
+        },
+        {
+          "level": 2,
+          "title": "12.3 Trusted Advisor and Instigator of Change",
+          "page": 107
+        },
+        {
+          "level": 2,
+          "title": "12.4 Change Management",
+          "page": 108
+        },
+        {
+          "level": 2,
+          "title": "12.5 Sustaining and Maturing",
+          "page": 108
+        },
+        {
+          "level": 3,
+          "title": "12.5.1 How to Engage and Promote Value Execution of the Internal Stakeholders",
+          "page": 109
+        },
+        {
+          "level": 2,
+          "title": "12.6 Building Community and Mentoring",
+          "page": 110
+        },
+        {
+          "level": 2,
+          "title": "12.7 Tools and Techniques",
+          "page": 111
+        },
+        {
+          "level": 1,
+          "title": "13 Mapping the EA Leader’s Guide to the TOGAF Framework",
+          "page": 114
+        },
+        {
+          "level": 2,
+          "title": "13.1 Mapping the EA Leader’s Guide to TOGAF ADM Phases",
+          "page": 114
+        },
+        {
+          "level": 2,
+          "title": "13.2 Mapping EA Content, EA Leader’s Approach, and Metamodel",
+          "page": 118
+        },
+        {
+          "level": 1,
+          "title": "A Partial List of EA Content Frameworks",
+          "page": 121
+        },
+        {
+          "level": 1,
+          "title": "B Maturity Models",
+          "page": 123
+        },
+        {
+          "level": 1,
+          "title": "C Suggested Reading",
+          "page": 124
+        },
+        {
+          "level": 1,
+          "title": "Acronyms and Abbreviations",
+          "page": 127
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 129
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G242e.pdf",
+        "file_path": "data/extended_topics/G242e.pdf",
+        "title": "TOGAF® Series Guide:  Environmentally Sustainable Information Systems",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 97,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": []
+    },
+    {
+      "document_info": {
+        "file_name": "G203e.pdf",
+        "file_path": "data/extended_topics/G203e.pdf",
+        "title": "TOGAF® Series Guide:  Architecture Maturity Models",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 20,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.1 Objective",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.2 Background",
+          "page": 9
+        },
+        {
+          "level": 2,
+          "title": "1.3 History and Application",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "2 US DoC ACMM Framework",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "2.1 Overview",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "2.2 Elements of the ACMM",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "2.3 ACMM Scoring Characteristics for Each Level of the Maturity Model",
+          "page": 12
+        },
+        {
+          "level": 1,
+          "title": "3 Capability Maturity Models Integration (CMMI)",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.1 CMMI",
+          "page": 16
+        },
+        {
+          "level": 3,
+          "title": "3.1.1 Introduction",
+          "page": 16
+        },
+        {
+          "level": 3,
+          "title": "3.1.2 CMMI Views and Models",
+          "page": 16
+        },
+        {
+          "level": 2,
+          "title": "3.2 SCAMPI® Method",
+          "page": 18
+        },
+        {
+          "level": 1,
+          "title": "4 Conclusions",
+          "page": 19
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G21Be.pdf",
+        "file_path": "data/extended_topics/G21Be.pdf",
+        "title": "TOGAF® Series Guide:  Information Architecture: Customer Master Data Management (C-MDM)",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 56,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 4
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 6
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 9
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "1.1 Information Architecture Capability",
+          "page": 11
+        },
+        {
+          "level": 2,
+          "title": "1.2 Data Management Capabilities",
+          "page": 12
+        },
+        {
+          "level": 2,
+          "title": "1.3 C-MDM Capability",
+          "page": 16
+        },
+        {
+          "level": 1,
+          "title": "2 Relationship to Existing Standards of The Open Group",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.1 The ArchiMate Specification",
+          "page": 18
+        },
+        {
+          "level": 2,
+          "title": "2.2 TOGAF Framework Extension",
+          "page": 19
+        },
+        {
+          "level": 1,
+          "title": "3 C-MDM Capability",
+          "page": 20
+        },
+        {
+          "level": 1,
+          "title": "4 Process and Methodology",
+          "page": 24
+        },
+        {
+          "level": 2,
+          "title": "4.1 TOGAF ADM Specialization for the C-MDM Capability",
+          "page": 24
+        },
+        {
+          "level": 2,
+          "title": "4.2 C-MDM Guidelines for an Architecture Vision (TOGAF ADM Phase A)",
+          "page": 26
+        },
+        {
+          "level": 2,
+          "title": "4.3 C-MDM Architecture Principles",
+          "page": 28
+        },
+        {
+          "level": 3,
+          "title": "4.3.1 Business Principles",
+          "page": 28
+        },
+        {
+          "level": 3,
+          "title": "4.3.2 Data Principles",
+          "page": 29
+        },
+        {
+          "level": 3,
+          "title": "4.3.3 Application Principles",
+          "page": 30
+        },
+        {
+          "level": 2,
+          "title": "4.4 Reference C-MDM Roadmap Steps (TOGAF ADM Phase F)",
+          "page": 31
+        },
+        {
+          "level": 1,
+          "title": "5 Reference Models",
+          "page": 35
+        },
+        {
+          "level": 2,
+          "title": "5.1 C-MDM Kernel Customer Data Scope",
+          "page": 35
+        },
+        {
+          "level": 3,
+          "title": "5.1.1 Physical Person Kernel Data",
+          "page": 36
+        },
+        {
+          "level": 3,
+          "title": "5.1.2 Organization/Legal Entity Kernel Data",
+          "page": 37
+        },
+        {
+          "level": 2,
+          "title": "5.2 C-MDM Detailed Functions Reference Model",
+          "page": 38
+        },
+        {
+          "level": 3,
+          "title": "5.2.1 C-MDM Detailed Business Functions Reference Model",
+          "page": 39
+        },
+        {
+          "level": 3,
+          "title": "5.2.2 C-MDM Detailed Application Functions Reference Model",
+          "page": 43
+        },
+        {
+          "level": 1,
+          "title": "6 Integration Methodologies",
+          "page": 47
+        },
+        {
+          "level": 2,
+          "title": "6.1 Integration of C-MDM Systems",
+          "page": 47
+        },
+        {
+          "level": 3,
+          "title": "6.1.1 C-MDM Integration Styles",
+          "page": 47
+        },
+        {
+          "level": 3,
+          "title": "6.1.2 Related Integration Patterns",
+          "page": 48
+        },
+        {
+          "level": 1,
+          "title": "A Operational Challenges & Diagnostic",
+          "page": 53
+        },
+        {
+          "level": 2,
+          "title": "A.1 Operational Challenges",
+          "page": 53
+        },
+        {
+          "level": 2,
+          "title": "A.2 Operational Diagnostic",
+          "page": 53
+        },
+        {
+          "level": 1,
+          "title": "Acronyms and Abbreviations",
+          "page": 55
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 56
+        }
+      ]
+    },
+    {
+      "document_info": {
+        "file_name": "G188e.pdf",
+        "file_path": "data/extended_topics/G188e.pdf",
+        "title": "TOGAF® Series Guide:  Architecture Project Management",
+        "author": "The Open Group",
+        "subject": "The TOGAF® Standard, 10th Edition",
+        "total_pages": 89,
+        "extracted_title": "TOGAF® Series Guide"
+      },
+      "table_of_contents": [
+        {
+          "level": 1,
+          "title": "Contents",
+          "page": 3
+        },
+        {
+          "level": 1,
+          "title": "Preface",
+          "page": 5
+        },
+        {
+          "level": 1,
+          "title": "Trademarks",
+          "page": 7
+        },
+        {
+          "level": 1,
+          "title": "About the Authors",
+          "page": 8
+        },
+        {
+          "level": 1,
+          "title": "Acknowledgements",
+          "page": 10
+        },
+        {
+          "level": 1,
+          "title": "Referenced Documents",
+          "page": 11
+        },
+        {
+          "level": 1,
+          "title": "1 Introduction",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "1.1 Overview",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "1.2 Background",
+          "page": 13
+        },
+        {
+          "level": 2,
+          "title": "1.3 Why do we need a Guide on Architecture Project Management?",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "1.4 Document Scope and Structure",
+          "page": 15
+        },
+        {
+          "level": 2,
+          "title": "1.5 Constraints",
+          "page": 16
+        },
+        {
+          "level": 1,
+          "title": "2 Managing Architecture Projects",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.1 Architecture Project Definition",
+          "page": 17
+        },
+        {
+          "level": 2,
+          "title": "2.2 Architecture Project Lifecycle",
+          "page": 20
+        },
+        {
+          "level": 2,
+          "title": "2.3 Architecture Project Management Concepts",
+          "page": 24
+        },
+        {
+          "level": 2,
+          "title": "2.4 Project Management Documentation",
+          "page": 28
+        },
+        {
+          "level": 1,
+          "title": "3 Detailed Guidance",
+          "page": 29
+        },
+        {
+          "level": 2,
+          "title": "3.1 Architecture Project Start-Up",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "3.1.1 Appoint the Executive",
+          "page": 30
+        },
+        {
+          "level": 3,
+          "title": "3.1.2 Appoint the Project Manager",
+          "page": 32
+        },
+        {
+          "level": 3,
+          "title": "3.1.3 Capture Previous Lessons",
+          "page": 33
+        },
+        {
+          "level": 3,
+          "title": "3.1.4 Prepare Outline Business Case",
+          "page": 34
+        },
+        {
+          "level": 3,
+          "title": "3.1.5 Select the Project Approach",
+          "page": 35
+        },
+        {
+          "level": 3,
+          "title": "3.1.6 Design and Appoint the Project Management Team",
+          "page": 37
+        },
+        {
+          "level": 3,
+          "title": "3.1.7 Assemble the Project Brief",
+          "page": 41
+        },
+        {
+          "level": 3,
+          "title": "3.1.8 Define the Management Approach",
+          "page": 42
+        },
+        {
+          "level": 2,
+          "title": "3.2 Architecture Project Planning",
+          "page": 45
+        },
+        {
+          "level": 3,
+          "title": "3.2.1 Define the Architecture Project Scope",
+          "page": 46
+        },
+        {
+          "level": 3,
+          "title": "3.2.2 Define the Final Product of the Architecture Project and its Acceptance Criteria",
+          "page": 47
+        },
+        {
+          "level": 3,
+          "title": "3.2.3 Define the Project Deliverables",
+          "page": 48
+        },
+        {
+          "level": 3,
+          "title": "3.2.4 Define the Project Exclusions, Constraints, and Assumptions",
+          "page": 49
+        },
+        {
+          "level": 3,
+          "title": "3.2.5 Detail the Architecture Project Scope",
+          "page": 50
+        },
+        {
+          "level": 3,
+          "title": "3.2.6 Create the Work Breakdown Structure",
+          "page": 50
+        },
+        {
+          "level": 3,
+          "title": "3.2.7 Develop the Architecture Project Plan and Schedule",
+          "page": 51
+        },
+        {
+          "level": 3,
+          "title": "3.2.8 Consolidate the Statement of Architecture Work and Secure Approval",
+          "page": 59
+        },
+        {
+          "level": 2,
+          "title": "3.3 Planning a Stage",
+          "page": 60
+        },
+        {
+          "level": 3,
+          "title": "3.3.1 What is a Stage? – Dividing an Architecture Project into Stages",
+          "page": 60
+        },
+        {
+          "level": 3,
+          "title": "3.3.2 Planning a Stage",
+          "page": 61
+        },
+        {
+          "level": 3,
+          "title": "3.3.3 Adjusting a Project Plan",
+          "page": 63
+        },
+        {
+          "level": 2,
+          "title": "3.4 Execute, Monitor, and Control a Stage",
+          "page": 63
+        },
+        {
+          "level": 3,
+          "title": "3.4.1 Authorize the Project Work Package",
+          "page": 64
+        },
+        {
+          "level": 3,
+          "title": "3.4.2 Review Project Work Package Status",
+          "page": 64
+        },
+        {
+          "level": 3,
+          "title": "3.4.3 Review Completed Project Work Package",
+          "page": 65
+        },
+        {
+          "level": 3,
+          "title": "3.4.4 Review Stage Status",
+          "page": 65
+        },
+        {
+          "level": 3,
+          "title": "3.4.5 Capture and Examine Issues and Risks",
+          "page": 65
+        },
+        {
+          "level": 3,
+          "title": "3.4.6 Report Highlights",
+          "page": 66
+        },
+        {
+          "level": 3,
+          "title": "3.4.7 Escalate Issues and Risks",
+          "page": 67
+        },
+        {
+          "level": 3,
+          "title": "3.4.8 Take Corrective Action",
+          "page": 68
+        },
+        {
+          "level": 2,
+          "title": "3.5 Ending a Stage",
+          "page": 68
+        },
+        {
+          "level": 3,
+          "title": "3.5.1 Stage Deliverables Hand-off and Approval",
+          "page": 69
+        },
+        {
+          "level": 3,
+          "title": "3.5.2 Managing a Stage Boundary",
+          "page": 69
+        },
+        {
+          "level": 2,
+          "title": "3.6 Architecture Project Closing",
+          "page": 70
+        },
+        {
+          "level": 3,
+          "title": "3.6.1 Products Handover",
+          "page": 70
+        },
+        {
+          "level": 3,
+          "title": "3.6.2 Prepare and Recommend Closure",
+          "page": 71
+        },
+        {
+          "level": 3,
+          "title": "3.6.3 Evaluate the Project and Document Lessons Learned",
+          "page": 72
+        },
+        {
+          "level": 1,
+          "title": "4 PRINCE2 to ADM Mapping",
+          "page": 74
+        },
+        {
+          "level": 2,
+          "title": "4.1 High-Level Mapping Description",
+          "page": 74
+        },
+        {
+          "level": 3,
+          "title": "4.1.1 TOGAF ADM Phase A (Architecture Vision)",
+          "page": 74
+        },
+        {
+          "level": 3,
+          "title": "4.1.2 TOGAF ADM Phases B to F",
+          "page": 75
+        },
+        {
+          "level": 2,
+          "title": "4.2 Detailed Mapping Description",
+          "page": 77
+        },
+        {
+          "level": 3,
+          "title": "4.2.1 TOGAF ADM Phase A (Architecture Vision)",
+          "page": 77
+        },
+        {
+          "level": 3,
+          "title": "4.2.2 TOGAF ADM Phases B to F",
+          "page": 79
+        },
+        {
+          "level": 1,
+          "title": "5 PMBOK to ADM Mapping",
+          "page": 81
+        },
+        {
+          "level": 2,
+          "title": "5.1 Phase A: Architecture Project Initiation and Planning",
+          "page": 83
+        },
+        {
+          "level": 3,
+          "title": "5.1.1 Establish the Architecture Project",
+          "page": 83
+        },
+        {
+          "level": 3,
+          "title": "5.1.2 Identify Stakeholders, Concerns, and Business Requirements",
+          "page": 83
+        },
+        {
+          "level": 3,
+          "title": "5.1.3 Confirm and Elaborate Business Goals, Business Drivers, and Constraints",
+          "page": 83
+        },
+        {
+          "level": 3,
+          "title": "5.1.4 Evaluate Capabilities",
+          "page": 84
+        },
+        {
+          "level": 3,
+          "title": "5.1.5 Assess Readiness for Business Transformation",
+          "page": 84
+        },
+        {
+          "level": 3,
+          "title": "5.1.6 Define Scope",
+          "page": 84
+        },
+        {
+          "level": 3,
+          "title": "5.1.7 Confirm and Elaborate Architecture Principles, including Business Principles",
+          "page": 84
+        },
+        {
+          "level": 3,
+          "title": "5.1.8 Develop Architecture Vision",
+          "page": 84
+        },
+        {
+          "level": 3,
+          "title": "5.1.9 Define the Target Architecture Value Propositions and KPIs",
+          "page": 84
+        },
+        {
+          "level": 3,
+          "title": "5.1.10 Identify the Business Transformation Risks and Mitigation Activities",
+          "page": 85
+        },
+        {
+          "level": 3,
+          "title": "5.1.11 Develop Statement of Architecture Work; Secure Approval",
+          "page": 85
+        },
+        {
+          "level": 2,
+          "title": "5.2 Phases B to F: Architecture Project Execution and Monitoring",
+          "page": 85
+        },
+        {
+          "level": 2,
+          "title": "5.3 Phase F: Architecture Project Closing",
+          "page": 87
+        },
+        {
+          "level": 1,
+          "title": "Glossary",
+          "page": 88
+        },
+        {
+          "level": 1,
+          "title": "Index",
+          "page": 89
+        }
+      ]
+    }
+  ]
+}

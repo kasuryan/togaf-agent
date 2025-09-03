@@ -1,0 +1,164 @@
+{
+  "user_id": "745b7a19-5b9b-4a76-8664-da9c02bed956",
+  "username": "prady",
+  "email": "prady123@gmail.com",
+  "created_at": "2025-09-02T14:25:07.339264",
+  "last_active": "2025-09-03T09:50:01.267517",
+  "experience_level": "beginner",
+  "proficiency_scores": {},
+  "overall_proficiency": 0.2,
+  "learning_approach": "structured",
+  "structured_weight": 0.7,
+  "exam_preparation_mode": true,
+  "target_certification": "foundation",
+  "exam_readiness_score": 0.0,
+  "certification_deadline": null,
+  "learning_plans": {
+    "6c3e9dc7-784c-47fb-aeab-fc3affcc41d5": {
+      "plan_id": "6c3e9dc7-784c-47fb-aeab-fc3affcc41d5",
+      "plan_name": "TOGAF Foundation for Beginners",
+      "plan_type": "foundation_beginner",
+      "description": "Structured learning path for TOGAF Foundation certification - beginner level",
+      "target_certification": "foundation",
+      "created_date": "2025-09-02T17:12:44.694336",
+      "estimated_total_duration_minutes": 360,
+      "topics": [
+        {
+          "topic_id": "togaf_introduction",
+          "title": "Introduction to TOGAF",
+          "description": "Overview of enterprise architecture and TOGAF framework",
+          "certification_level": "foundation",
+          "estimated_duration_minutes": 54,
+          "prerequisites": [],
+          "is_optional": false,
+          "order_index": 0,
+          "status": "not_started",
+          "completion_date": null,
+          "user_marked_complete": false,
+          "auto_completion_criteria": {}
+        },
+        {
+          "topic_id": "enterprise_architecture_concepts",
+          "title": "Enterprise Architecture Core Concepts",
+          "description": "Fundamental EA concepts and terminology",
+          "certification_level": "foundation",
+          "estimated_duration_minutes": 72,
+          "prerequisites": [
+            "togaf_introduction"
+          ],
+          "is_optional": false,
+          "order_index": 1,
+          "status": "not_started",
+          "completion_date": null,
+          "user_marked_complete": false,
+          "auto_completion_criteria": {}
+        },
+        {
+          "topic_id": "adm_overview",
+          "title": "Architecture Development Method (ADM) Overview",
+          "description": "Introduction to TOGAF ADM phases and approach",
+          "certification_level": "foundation",
+          "estimated_duration_minutes": 108,
+          "prerequisites": [
+            "enterprise_architecture_concepts"
+          ],
+          "is_optional": false,
+          "order_index": 2,
+          "status": "not_started",
+          "completion_date": null,
+          "user_marked_complete": false,
+          "auto_completion_criteria": {}
+        },
+        {
+          "topic_id": "preliminary_phase",
+          "title": "Preliminary Phase",
+          "description": "Preparing for architecture work",
+          "certification_level": "foundation",
+          "estimated_duration_minutes": 90,
+          "prerequisites": [
+            "adm_overview"
+          ],
+          "is_optional": false,
+          "order_index": 3,
+          "status": "not_started",
+          "completion_date": null,
+          "user_marked_complete": false,
+          "auto_completion_criteria": {}
+        },
+        {
+          "topic_id": "phase_a_vision",
+          "title": "Phase A: Architecture Vision",
+          "description": "Creating and validating architecture vision",
+          "certification_level": "foundation",
+          "estimated_duration_minutes": 108,
+          "prerequisites": [
+            "preliminary_phase"
+          ],
+          "is_optional": false,
+          "order_index": 4,
+          "status": "not_started",
+          "completion_date": null,
+          "user_marked_complete": false,
+          "auto_completion_criteria": {}
+        }
+      ],
+      "current_topic_index": 0,
+      "is_active": true,
+      "completion_percentage": 0.0,
+      "topics_completed": 0,
+      "total_time_spent_minutes": 0,
+      "allow_topic_skipping": true,
+      "enforce_prerequisites": true,
+      "auto_advance": false
+    }
+  },
+  "active_plan_id": "6c3e9dc7-784c-47fb-aeab-fc3affcc41d5",
+  "learning_goals": [
+    {
+      "id": "2d4b3b3b-e2ae-4355-86e0-5b997de92f65",
+      "certification_level": "foundation",
+      "target_completion_date": null,
+      "priority": 1,
+      "description": "Achieve TOGAF Foundation certification with focused exam preparation",
+      "created_at": "2025-09-02T17:14:35.226712",
+      "is_active": true,
+      "associated_plan_id": null
+    }
+  ],
+  "topic_progress": {},
+  "conversation_preferences": {
+    "learning_style": "visual",
+    "explanation_depth": "moderate",
+    "use_examples": true,
+    "use_diagrams": true,
+    "interactive_mode": true,
+    "question_difficulty": "adaptive",
+    "preferred_response_length": "moderate"
+  },
+  "session_preferences": {
+    "preferred_duration_minutes": 45,
+    "session_intensity": "moderate",
+    "break_frequency_minutes": 20,
+    "reminder_notifications": true,
+    "progress_tracking": true
+  },
+  "total_study_time_minutes": 0,
+  "sessions_completed": 0,
+  "average_session_duration_minutes": 0.0,
+  "streak_days": 0,
+  "last_study_date": null,
+  "strengths": [],
+  "areas_for_improvement": [],
+  "learning_velocity": 1.0,
+  "retention_score": 0.0,
+  "preferred_learning_times": [],
+  "knowledge_gaps": {},
+  "last_assessment_date": null,
+  "assessment_history": [],
+  "current_session_id": "61260250-9801-45fb-9269-f0e046923c30",
+  "current_topic_focus": null,
+  "profile_version": "2.0",
+  "custom_tags": [],
+  "onboarding_completed": true,
+  "last_onboarding_step": "completion"
+}

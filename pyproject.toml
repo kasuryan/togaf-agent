@@ -1,0 +1,33 @@
+[project]
+name = "togaf-agent"
+version = "0.1.0"
+description = "Togaf Tutor Agent"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=1.0.0",
+    "pymupdf>=1.23.0",
+    "pdfplumber>=0.10.0",
+    "PyPDF2>=3.0.0",
+    "chromadb>=0.4.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "uuid7>=0.1.0",
+    "rich>=13.0.0",
+    "click>=8.1.0",
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "streamlit>=1.28.0",
+    "plotly>=6.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0"
+]
+
+[project.scripts]
+togaf-agent = "togaf_agent.main:main"

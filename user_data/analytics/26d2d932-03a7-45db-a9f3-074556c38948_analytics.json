@@ -1,0 +1,26 @@
+{
+  "user_id": "26d2d932-03a7-45db-a9f3-074556c38948",
+  "analysis_date": "2025-09-02T16:31:06.668798",
+  "overall_completion": 0.0,
+  "study_consistency": 0.0,
+  "learning_velocity": 1.0,
+  "retention_rate": 0.0,
+  "foundation_readiness": 0.0,
+  "practitioner_readiness": 0.0,
+  "peak_performance_times": [
+    "morning"
+  ],
+  "optimal_session_length": 60,
+  "preferred_difficulty_progression": "gradual",
+  "suggested_next_topics": [
+    "adm_overview",
+    "preliminary_phase",
+    "phase_a_vision",
+    "business_architecture",
+    "data_architecture"
+  ],
+  "review_topics": [],
+  "challenge_topics": [],
+  "knowledge_gaps": {},
+  "improvement_focus": []
+}

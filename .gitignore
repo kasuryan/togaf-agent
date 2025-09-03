@@ -1,0 +1,108 @@
+# Environment and Configuration
+.env
+.env.local
+.env.*.local
+config.json
+settings.json
+
+#exclude_dirs
+docs
+uv.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Documentation (auto-generated or temporary)
+docs/_build/
+docs/.doctrees/
+site/
+
+
+# Analytics and Logs
+logs/
+*.log
+*.log.*
+
+# Cache and Temporary Files
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+# API Keys and Secrets
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+uploads/
+downloads/
+backups/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+test-results/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Development Tools
+.ruff_cache/
+.black/
+.isort.cfg
