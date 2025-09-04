@@ -457,8 +457,13 @@ def render_completion_step():
                     elif action["action"] == "ask_question":
                         st.session_state.page = "chat"
                     
-                    # Mark onboarding as completed
+                    # Mark onboarding as completed and refresh user data from API
                     st.session_state.current_user["onboarding_completed"] = True
+                    
+                    # Refresh user profile from API to get updated experience level and other changes
+                    updated_user = st.session_state.api_client.get_user_by_id(st.session_state.current_user["user_id"])
+                    if updated_user and "error" not in updated_user:
+                        st.session_state.current_user.update(updated_user)
                     
                     # Clear onboarding state
                     if "onboarding_state" in st.session_state:
@@ -471,6 +476,11 @@ def render_completion_step():
     if st.button("Go to Dashboard", use_container_width=True):
         st.session_state.current_user["onboarding_completed"] = True
         st.session_state.page = "dashboard"
+        
+        # Refresh user profile from API to get updated experience level and other changes
+        updated_user = st.session_state.api_client.get_user_by_id(st.session_state.current_user["user_id"])
+        if updated_user and "error" not in updated_user:
+            st.session_state.current_user.update(updated_user)
         
         if "onboarding_state" in st.session_state:
             del st.session_state.onboarding_state

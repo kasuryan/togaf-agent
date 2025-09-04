@@ -199,7 +199,8 @@ class TOGAFOnboardingSystem:
         profile = self.profile_manager.get_profile(state.user_id)
         if profile:
             profile.experience_level = experience_level
-            profile.overall_proficiency = assessment_score
+            # Keep overall_proficiency at 0.0 - it should reflect actual learning progress, not initial assessment
+            profile.overall_proficiency = 0.0
             profile.last_onboarding_step = OnboardingStep.LEARNING_PREFERENCES.value
             self.profile_manager.save_profile(profile)
         
@@ -575,6 +576,11 @@ class TOGAFOnboardingSystem:
             if "interaction_style" in session_prefs:
                 interactive_level = session_prefs["interaction_style"]
                 profile.conversation_preferences.interactive_mode = interactive_level in ["high", "moderate"]
+            
+            # Apply the experience level determined during assessment (stored in onboarding state)
+            determined_experience = state.step_data.get("determined_experience_level", "beginner")
+            if determined_experience in [level.value for level in ExperienceLevel]:
+                profile.experience_level = ExperienceLevel(determined_experience)
             
             # Mark onboarding as completed
             profile.onboarding_completed = True

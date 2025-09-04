@@ -120,8 +120,27 @@ def render_sidebar():
             user = st.session_state.current_user
             with st.container():
                 st.markdown(f"**Welcome, {user.get('username', 'User')}!**")
-                st.markdown(f"Experience: {user.get('experience_level', 'Unknown').title()}")
-                st.markdown(f"Progress: {user.get('overall_proficiency', 0):.1%}")
+                
+                # Refresh user data from API to get latest experience level and progress
+                try:
+                    updated_user = st.session_state.api_client.get_user_by_id(user.get('user_id'))
+                    if updated_user and "error" not in updated_user:
+                        # Update session state with fresh data
+                        st.session_state.current_user.update(updated_user)
+                        user = st.session_state.current_user
+                    
+                    # Get analytics for progress
+                    analytics = st.session_state.api_client.get_progress_analytics(user.get('user_id'))
+                    if analytics and 'overall_completion' in analytics:
+                        progress = analytics['overall_completion']
+                    else:
+                        progress = 0.0
+                    
+                    st.markdown(f"Experience: {user.get('experience_level', 'Unknown').title()}")
+                    st.markdown(f"Progress: {progress:.1f}%")
+                except Exception:
+                    st.markdown(f"Experience: {user.get('experience_level', 'Unknown').title()}")
+                    st.markdown(f"Progress: 0.0%")
                 
                 if st.button("🚪 Logout", use_container_width=True):
                     st.session_state.current_user = None

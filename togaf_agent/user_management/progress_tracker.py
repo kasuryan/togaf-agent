@@ -386,9 +386,12 @@ class ProgressTracker:
         analytics = ProgressAnalytics(user_id=profile.user_id)
         
         # Overall completion calculation
-        if profile.topic_progress:
+        if profile.topic_progress and len(profile.topic_progress) > 0:
             total_completion = sum(tp.completion_percentage for tp in profile.topic_progress.values())
             analytics.overall_completion = total_completion / len(profile.topic_progress)
+        else:
+            # If no topics started yet, progress should be 0
+            analytics.overall_completion = 0.0
         
         # Study consistency (based on streak and session regularity)
         analytics.study_consistency = min(1.0, profile.streak_days / 30.0)  # 30-day streak = 1.0
